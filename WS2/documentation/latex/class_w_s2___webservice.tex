@@ -1,0 +1,179 @@
+\hypertarget{class_w_s2___webservice}{\section{W\+S2\+\_\+\+Webservice Class Reference}
+\label{class_w_s2___webservice}\index{W\+S2\+\_\+\+Webservice@{W\+S2\+\_\+\+Webservice}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_w_s2___webservice_a94e3fd34f1e7778d69013bc3ac57a1d7}{register\+Pacient} (\$firstname, \$lastname, \$username, \$birthdate, \$gender)
+\item 
+\hyperlink{class_w_s2___webservice_a3bd4c38e0625889172f441a6c637cc42}{register\+Caretaker} (\$firstname, \$lastname, \$username, \$birthdate, \$gender)
+\item 
+\hyperlink{class_w_s2___webservice_adb7e6ca2d6bbdfa55a7ccb60c5ce549e}{insert\+Info\+Location} (\$pacient, \$token, \$activity\+Name, \$url)
+\item 
+\hyperlink{class_w_s2___webservice_ab8824cfa47f27b3ea470c4ceaff1ad99}{authorize\+Caretaker} (\$pacient, \$token, \$activity\+Name, \$caretaker)
+\item 
+\hyperlink{class_w_s2___webservice_ab93521bcae8c90f705635a5788ce1def}{register\+Method} (\$name\+Method)
+\item 
+\hypertarget{class_w_s2___webservice_a3c934047380a0debb627d77d51bb85c8}{{\bfseries process\+Request} ()}\label{class_w_s2___webservice_a3c934047380a0debb627d77d51bb85c8}
+
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_w_s2___webservice_ad135cc8a47e55f0829949cf62214170f}{{\bfseries \$server} = N\+U\+L\+L}\label{class_w_s2___webservice_ad135cc8a47e55f0829949cf62214170f}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_w_s2___webservice_ab8824cfa47f27b3ea470c4ceaff1ad99}{\index{W\+S2\+\_\+\+Webservice@{W\+S2\+\_\+\+Webservice}!authorize\+Caretaker@{authorize\+Caretaker}}
+\index{authorize\+Caretaker@{authorize\+Caretaker}!W\+S2\+\_\+\+Webservice@{W\+S2\+\_\+\+Webservice}}
+\subsubsection[{authorize\+Caretaker}]{\setlength{\rightskip}{0pt plus 5cm}authorize\+Caretaker (
+\begin{DoxyParamCaption}
+\item[{}]{\$pacient, }
+\item[{}]{\$token, }
+\item[{}]{\$activity\+Name, }
+\item[{}]{\$caretaker}
+\end{DoxyParamCaption}
+)}}\label{class_w_s2___webservice_ab8824cfa47f27b3ea470c4ceaff1ad99}
+authorize a caretaker to have access to pacient info after validate the pacient, check if the caretaker is in the webservice database and if there's an activity registered. return either a message of error or success
+
+public \begin{DoxyAuthor}{Author}
+firstname and lastname of author, \href{mailto:author@example.org}{\tt author@example.\+org} 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em String} & pacient \\
+\hline
+{\em String} & token \\
+\hline
+{\em String} & activity\+Name \\
+\hline
+{\em String} & caretaker \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String 
+\end{DoxyReturn}
+\hypertarget{class_w_s2___webservice_adb7e6ca2d6bbdfa55a7ccb60c5ce549e}{\index{W\+S2\+\_\+\+Webservice@{W\+S2\+\_\+\+Webservice}!insert\+Info\+Location@{insert\+Info\+Location}}
+\index{insert\+Info\+Location@{insert\+Info\+Location}!W\+S2\+\_\+\+Webservice@{W\+S2\+\_\+\+Webservice}}
+\subsubsection[{insert\+Info\+Location}]{\setlength{\rightskip}{0pt plus 5cm}insert\+Info\+Location (
+\begin{DoxyParamCaption}
+\item[{}]{\$pacient, }
+\item[{}]{\$token, }
+\item[{}]{\$activity\+Name, }
+\item[{}]{\$url}
+\end{DoxyParamCaption}
+)}}\label{class_w_s2___webservice_adb7e6ca2d6bbdfa55a7ccb60c5ce549e}
+insert an pacient activity location after validate its token. return a message of error or success
+
+public \begin{DoxyAuthor}{Author}
+firstname and lastname of author, \href{mailto:author@example.org}{\tt author@example.\+org} 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em String} & pacient \\
+\hline
+{\em String} & token \\
+\hline
+{\em String} & activity\+Name \\
+\hline
+{\em String} & url \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String 
+\end{DoxyReturn}
+\hypertarget{class_w_s2___webservice_a3bd4c38e0625889172f441a6c637cc42}{\index{W\+S2\+\_\+\+Webservice@{W\+S2\+\_\+\+Webservice}!register\+Caretaker@{register\+Caretaker}}
+\index{register\+Caretaker@{register\+Caretaker}!W\+S2\+\_\+\+Webservice@{W\+S2\+\_\+\+Webservice}}
+\subsubsection[{register\+Caretaker}]{\setlength{\rightskip}{0pt plus 5cm}register\+Caretaker (
+\begin{DoxyParamCaption}
+\item[{}]{\$firstname, }
+\item[{}]{\$lastname, }
+\item[{}]{\$username, }
+\item[{}]{\$birthdate, }
+\item[{}]{\$gender}
+\end{DoxyParamCaption}
+)}}\label{class_w_s2___webservice_a3bd4c38e0625889172f441a6c637cc42}
+try to register a caretaker, and return either the token or an error message
+
+public \begin{DoxyAuthor}{Author}
+firstname and lastname of author, \href{mailto:author@example.org}{\tt author@example.\+org} 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em String} & firstname \\
+\hline
+{\em String} & lastname \\
+\hline
+{\em String} & username \\
+\hline
+{\em String} & birthdate \\
+\hline
+{\em char} & gender \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String 
+\end{DoxyReturn}
+\hypertarget{class_w_s2___webservice_ab93521bcae8c90f705635a5788ce1def}{\index{W\+S2\+\_\+\+Webservice@{W\+S2\+\_\+\+Webservice}!register\+Method@{register\+Method}}
+\index{register\+Method@{register\+Method}!W\+S2\+\_\+\+Webservice@{W\+S2\+\_\+\+Webservice}}
+\subsubsection[{register\+Method}]{\setlength{\rightskip}{0pt plus 5cm}register\+Method (
+\begin{DoxyParamCaption}
+\item[{}]{\$name\+Method}
+\end{DoxyParamCaption}
+)}}\label{class_w_s2___webservice_ab93521bcae8c90f705635a5788ce1def}
+Short description of method access\+Info\+Location
+
+public \begin{DoxyAuthor}{Author}
+firstname and lastname of author, \href{mailto:author@example.org}{\tt author@example.\+org} 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em String} & caretaker \\
+\hline
+{\em String} & pacient \\
+\hline
+{\em String} & activity\+Name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+W\+S1\+\_\+\+Array 
+\end{DoxyReturn}
+\hypertarget{class_w_s2___webservice_a94e3fd34f1e7778d69013bc3ac57a1d7}{\index{W\+S2\+\_\+\+Webservice@{W\+S2\+\_\+\+Webservice}!register\+Pacient@{register\+Pacient}}
+\index{register\+Pacient@{register\+Pacient}!W\+S2\+\_\+\+Webservice@{W\+S2\+\_\+\+Webservice}}
+\subsubsection[{register\+Pacient}]{\setlength{\rightskip}{0pt plus 5cm}register\+Pacient (
+\begin{DoxyParamCaption}
+\item[{}]{\$firstname, }
+\item[{}]{\$lastname, }
+\item[{}]{\$username, }
+\item[{}]{\$birthdate, }
+\item[{}]{\$gender}
+\end{DoxyParamCaption}
+)}}\label{class_w_s2___webservice_a94e3fd34f1e7778d69013bc3ac57a1d7}
+try to register a pacient, and return either the token or an error message
+
+public \begin{DoxyAuthor}{Author}
+firstname and lastname of author, \href{mailto:author@example.org}{\tt author@example.\+org} 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em String} & firstname \\
+\hline
+{\em String} & lastname \\
+\hline
+{\em String} & username \\
+\hline
+{\em String} & birthdate \\
+\hline
+{\em char} & gender \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Alessandro/\+Desktop/\+E\+S-\/\+Project/\+W\+S2/class.\+Webservice.\+php\end{DoxyCompactItemize}

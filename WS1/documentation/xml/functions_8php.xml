@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="functions_8php" kind="file">
+    <compoundname>functions.php</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="functions_8php_1a3a3acb6698b0844c523e5cd124d1b9c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dbConnection</definition>
+        <argsstring>()</argsstring>
+        <name>dbConnection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/lib/functions.php" line="3" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/lib/functions.php" bodystart="3" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="functions_8php_1a194478d9ff0974f78087c41353c4b92b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>queryMysqli</definition>
+        <argsstring>($query, array $params)</argsstring>
+        <name>queryMysqli</name>
+        <param>
+          <declname>$query</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/lib/functions.php" line="25" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/lib/functions.php" bodystart="25" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="functions_8php_1a24a9bf83a1002d46ece83a93d14bd921" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get</definition>
+        <argsstring>($key)</argsstring>
+        <name>get</name>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/lib/functions.php" line="40" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/lib/functions.php" bodystart="40" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>dbConnection()<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>$DBhost<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;localhost&apos;</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>Your<sp/>host<sp/>name<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>$database<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;es-project&apos;</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Your<sp/>database<sp/>name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>$DBuser<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;root&apos;</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Your<sp/>login<sp/>userid<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>$DBpassword<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;12345&apos;</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Your<sp/>password<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//concatenate<sp/>string<sp/>for<sp/>db<sp/>connection<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>$dsn<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;mysql:host=&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>$dsn.=$DBhost;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>$dsn.=</highlight><highlight class="stringliteral">&apos;;dbname=&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>$dsn.=$database;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>$dsn.=</highlight><highlight class="stringliteral">&apos;;charset=utf8&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$conPDO<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>PDO($dsn,<sp/>$DBuser,<sp/>$DBpassword);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(PDOException<sp/>$e)<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&apos;Connection<sp/>failed:<sp/>&apos;</highlight><highlight class="normal"><sp/>.<sp/>$e-&gt;getMessage();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$conPDO;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//make<sp/>a<sp/>prepared<sp/>query<sp/>by<sp/>using<sp/>a<sp/>PDOconnection,<sp/>a<sp/>string<sp/>with<sp/>query<sp/>and<sp/>an<sp/>array<sp/>of<sp/>arguments<sp/>(empty<sp/>array()<sp/>if<sp/>there&apos;s<sp/>no<sp/>argument)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>queryMysqli($query,<sp/>array<sp/>$params)<sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>$conPDO<sp/>=<sp/>dbConnection();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//prepare<sp/>the<sp/>query</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$result<sp/>=<sp/>$conPDO-&gt;prepare($query);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//execute<sp/>the<sp/>query<sp/>with<sp/>the<sp/>passed<sp/>parameters<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$result-&gt;execute($params);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//close<sp/>the<sp/>database<sp/>connection</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$conPDO<sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>$result;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(PDOException<sp/>$e)<sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>trigger_error(</highlight><highlight class="stringliteral">&apos;Error:<sp/>&apos;</highlight><highlight class="normal"><sp/>.<sp/>$e-&gt;getMessage(),<sp/>E_USER_ERROR);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">($key)<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>filter_input(INPUT_GET,<sp/>$key);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/lib/functions.php"/>
+  </compounddef>
+</doxygen>

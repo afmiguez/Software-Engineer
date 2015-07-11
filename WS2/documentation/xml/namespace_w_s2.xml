@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="namespace_w_s2" kind="namespace">
+    <compoundname>WS2</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>include <ref refid="class_w_s2___pacient_info" kindref="compound">WS2_PacientInfo</ref></para><para><simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink> link a given caretaker to a pacient activity into the database</para></simplesect>
+public <simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink></para></simplesect>
+Short description of class <ref refid="class_w_s2___caretaker" kindref="compound">WS2_Caretaker</ref></para><para>public <simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink></para></simplesect>
+Short description of class <ref refid="class_w_s2___pacient" kindref="compound">WS2_Pacient</ref></para><para>public <simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink></para></simplesect>
+stores an the url of an activity of a pacient</para><para>public <simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink></para></simplesect>
+a generic user for the webservice 2</para><para>public <simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink></para></simplesect>
+include <ref refid="class_w_s2___pacient" kindref="compound">WS2_Pacient</ref></para><para><simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink> include <ref refid="class_w_s2___pacient_info" kindref="compound">WS2_PacientInfo</ref></para></simplesect>
+<simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink> Short description of class <ref refid="class_w_s2___webservice" kindref="compound">WS2_Webservice</ref></para></simplesect>
+public <simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Authorization.php" line="14" column="1"/>
+  </compounddef>
+</doxygen>

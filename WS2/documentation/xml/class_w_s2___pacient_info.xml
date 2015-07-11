@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_w_s2___pacient_info" kind="class" prot="public">
+    <compoundname>WS2_PacientInfo</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_w_s2___pacient_info_1acf215f34a917d014776ce684a9ee8909" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$url</definition>
+        <argsstring></argsstring>
+        <name>$url</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.PacientInfo.php" line="50" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.PacientInfo.php" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_s2___pacient_info_1a3fa671db28976c46bc40592b61ce17f7" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$pacient</definition>
+        <argsstring></argsstring>
+        <name>$pacient</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.PacientInfo.php" line="58" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.PacientInfo.php" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_s2___pacient_info_1ae472409ec3f825fbb70ac3dd7a217e10" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$activityName</definition>
+        <argsstring></argsstring>
+        <name>$activityName</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.PacientInfo.php" line="66" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.PacientInfo.php" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_w_s2___pacient_info_1ace1b038293256ce98dc046e3839d34d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($pacient, $activity, $url)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$pacient</declname>
+        </param>
+        <param>
+          <declname>$activity</declname>
+        </param>
+        <param>
+          <declname>$url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.PacientInfo.php" line="68" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.PacientInfo.php" bodystart="68" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s2___pacient_info_1ab285c759f6a4224312a1f1b12971f146" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getPacient</definition>
+        <argsstring>()</argsstring>
+        <name>getPacient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.PacientInfo.php" line="74" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.PacientInfo.php" bodystart="74" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s2___pacient_info_1a9b566deb2ebd8bd785e67239540901f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getActivityName</definition>
+        <argsstring>()</argsstring>
+        <name>getActivityName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.PacientInfo.php" line="79" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.PacientInfo.php" bodystart="79" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s2___pacient_info_1accd14bda49a1044b4d8dd93f020f11ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getUrl</definition>
+        <argsstring>()</argsstring>
+        <name>getUrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.PacientInfo.php" line="84" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.PacientInfo.php" bodystart="84" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s2___pacient_info_1a211a2979c22afcd7d9056a2bb55aa449" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getToken</definition>
+        <argsstring>()</argsstring>
+        <name>getToken</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.PacientInfo.php" line="89" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.PacientInfo.php" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s2___pacient_info_1ac1456e33a827b3e52c2a783960f8fdd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>insertPacientInfo</definition>
+        <argsstring>()</argsstring>
+        <name>insertPacientInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>insert the activity in the ws2 database</para><para><simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink> return String </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.PacientInfo.php" line="100" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.PacientInfo.php" bodystart="100" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_w_s2___pacient_info_1abf5833098432d4a2136d982a612308cc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getPacientInfo</definition>
+        <argsstring>($pacient, $activityName)</argsstring>
+        <name>getPacientInfo</name>
+        <param>
+          <declname>$pacient</declname>
+        </param>
+        <param>
+          <declname>$activityName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the numeric id of an pacient&apos;s activity in the ws2 database</para><para><simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink> </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pacient </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>activityName return Integer </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.PacientInfo.php" line="118" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.PacientInfo.php" bodystart="118" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s2___pacient_info_1adf5a2a516e9b8c8cff86c005fe5bbb40" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getUrlId</definition>
+        <argsstring>($pacientInfo)</argsstring>
+        <name>getUrlId</name>
+        <param>
+          <declname>$pacientInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the url of an activity registered into the ws2 database</para><para><simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink> </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pacientInfo return String </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.PacientInfo.php" line="136" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.PacientInfo.php" bodystart="136" bodyend="141"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.PacientInfo.php" line="42" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.PacientInfo.php" bodystart="41" bodyend="143"/>
+    <listofallmembers>
+      <member refid="class_w_s2___pacient_info_1ae472409ec3f825fbb70ac3dd7a217e10" prot="private" virt="non-virtual"><scope>WS2_PacientInfo</scope><name>$activityName</name></member>
+      <member refid="class_w_s2___pacient_info_1a3fa671db28976c46bc40592b61ce17f7" prot="private" virt="non-virtual"><scope>WS2_PacientInfo</scope><name>$pacient</name></member>
+      <member refid="class_w_s2___pacient_info_1acf215f34a917d014776ce684a9ee8909" prot="private" virt="non-virtual"><scope>WS2_PacientInfo</scope><name>$url</name></member>
+      <member refid="class_w_s2___pacient_info_1ace1b038293256ce98dc046e3839d34d2" prot="public" virt="non-virtual"><scope>WS2_PacientInfo</scope><name>__construct</name></member>
+      <member refid="class_w_s2___pacient_info_1a9b566deb2ebd8bd785e67239540901f0" prot="public" virt="non-virtual"><scope>WS2_PacientInfo</scope><name>getActivityName</name></member>
+      <member refid="class_w_s2___pacient_info_1ab285c759f6a4224312a1f1b12971f146" prot="public" virt="non-virtual"><scope>WS2_PacientInfo</scope><name>getPacient</name></member>
+      <member refid="class_w_s2___pacient_info_1abf5833098432d4a2136d982a612308cc" prot="public" virt="non-virtual"><scope>WS2_PacientInfo</scope><name>getPacientInfo</name></member>
+      <member refid="class_w_s2___pacient_info_1a211a2979c22afcd7d9056a2bb55aa449" prot="public" virt="non-virtual"><scope>WS2_PacientInfo</scope><name>getToken</name></member>
+      <member refid="class_w_s2___pacient_info_1accd14bda49a1044b4d8dd93f020f11ee" prot="public" virt="non-virtual"><scope>WS2_PacientInfo</scope><name>getUrl</name></member>
+      <member refid="class_w_s2___pacient_info_1adf5a2a516e9b8c8cff86c005fe5bbb40" prot="public" virt="non-virtual"><scope>WS2_PacientInfo</scope><name>getUrlId</name></member>
+      <member refid="class_w_s2___pacient_info_1ac1456e33a827b3e52c2a783960f8fdd9" prot="public" virt="non-virtual"><scope>WS2_PacientInfo</scope><name>insertPacientInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

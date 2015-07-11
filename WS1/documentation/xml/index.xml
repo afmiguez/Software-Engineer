@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.8">
+  <compound refid="class_1_1activity_1_1php" kind="class"><name>::activity::php</name>
+  </compound>
+  <compound refid="class_1_1user_1_1php" kind="class"><name>::user::php</name>
+  </compound>
+  <compound refid="class_1_1webservice_1_1php" kind="class"><name>::webservice::php</name>
+  </compound>
+  <compound refid="class_w_s1__activity" kind="class"><name>WS1_activity</name>
+    <member refid="class_w_s1__activity_1a0eb82aa5f81cf845de4b36cd653c42cf" kind="variable"><name>$username</name></member>
+    <member refid="class_w_s1__activity_1a50a00e7de77365e00b117e73aa82fb9b" kind="variable"><name>$start</name></member>
+    <member refid="class_w_s1__activity_1ac2040b96cd66d4d79b1d9fe0027d2f9b" kind="variable"><name>$end</name></member>
+    <member refid="class_w_s1__activity_1ae472409ec3f825fbb70ac3dd7a217e10" kind="variable"><name>$activityName</name></member>
+    <member refid="class_w_s1__activity_1a142106110874672839c09210568f5f78" kind="function"><name>__construct</name></member>
+    <member refid="class_w_s1__activity_1a81b37a3c9d639574e394f80c1138c75e" kind="function"><name>getUsername</name></member>
+    <member refid="class_w_s1__activity_1aa86e59bfce83f0dbfcd14a0c2a83e98e" kind="function"><name>getStart</name></member>
+    <member refid="class_w_s1__activity_1a000b799500c1a9b8f1bd60c204191563" kind="function"><name>getEnd</name></member>
+    <member refid="class_w_s1__activity_1a9b566deb2ebd8bd785e67239540901f0" kind="function"><name>getActivityName</name></member>
+    <member refid="class_w_s1__activity_1ad3e801b624751fc2a3f596f04f81dcaf" kind="function"><name>insertActivity</name></member>
+    <member refid="class_w_s1__activity_1aa8ded292bcca041d208f8cee7a41e6cb" kind="function"><name>queryActivity</name></member>
+  </compound>
+  <compound refid="class_w_s1__user" kind="class"><name>WS1_user</name>
+    <member refid="class_w_s1__user_1a55793c72c535d153ffd3f0e43377898b" kind="variable"><name>$firstname</name></member>
+    <member refid="class_w_s1__user_1a1d2ddb6354180329b59e8b90ed94dc7f" kind="variable"><name>$lastname</name></member>
+    <member refid="class_w_s1__user_1a0eb82aa5f81cf845de4b36cd653c42cf" kind="variable"><name>$username</name></member>
+    <member refid="class_w_s1__user_1a00ae4fcafb1145f5e968bdf920f83e2e" kind="variable"><name>$token</name></member>
+    <member refid="class_w_s1__user_1a1d5a040d6cd65b40daa47911e18adbb0" kind="variable"><name>$birthdate</name></member>
+    <member refid="class_w_s1__user_1a0f1d7cfb9dc6f494b9014885205fc47e" kind="variable"><name>$gender</name></member>
+    <member refid="class_w_s1__user_1a42c9621713b6dcdfb9edd5a7630b6d93" kind="function"><name>getFirstname</name></member>
+    <member refid="class_w_s1__user_1a5d606fdf02d35b79b74b91a88c09000f" kind="function"><name>getLastname</name></member>
+    <member refid="class_w_s1__user_1a81b37a3c9d639574e394f80c1138c75e" kind="function"><name>getUsername</name></member>
+    <member refid="class_w_s1__user_1aeafdb95ad7b97a5ff68ac785e8c243e5" kind="function"><name>getBirthdate</name></member>
+    <member refid="class_w_s1__user_1af7313369f22d5c761e16462abe0c6ae1" kind="function"><name>getGender</name></member>
+    <member refid="class_w_s1__user_1a211a2979c22afcd7d9056a2bb55aa449" kind="function"><name>getToken</name></member>
+    <member refid="class_w_s1__user_1a354f01fe06936133696743e346fc206b" kind="function"><name>setToken</name></member>
+    <member refid="class_w_s1__user_1a718968fc81da151fcdbbdab7bc8e731f" kind="function"><name>__construct</name></member>
+    <member refid="class_w_s1__user_1a1fdb0f05b888f4aa92b319775e488e70" kind="function"><name>registerUser</name></member>
+    <member refid="class_w_s1__user_1a4f6b9ae532f6f731ac3fa8b446e9a9dd" kind="function"><name>validateUser</name></member>
+    <member refid="class_w_s1__user_1a63d3686b73e0b76cff02582d79d01845" kind="function"><name>existUser</name></member>
+  </compound>
+  <compound refid="class_w_s1__webservice" kind="class"><name>WS1_webservice</name>
+    <member refid="class_w_s1__webservice_1ad135cc8a47e55f0829949cf62214170f" kind="variable"><name>$server</name></member>
+    <member refid="class_w_s1__webservice_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_w_s1__webservice_1a1b62ed1851f70edfd18f49d06e68dc50" kind="function"><name>createUser</name></member>
+    <member refid="class_w_s1__webservice_1a6546d97dda46091660111f56f0740b87" kind="function"><name>createUserActivity</name></member>
+    <member refid="class_w_s1__webservice_1ac6205c0eeff28a018e749336e55b084d" kind="function"><name>getUserQuery</name></member>
+    <member refid="class_w_s1__webservice_1ab93521bcae8c90f705635a5788ce1def" kind="function"><name>registerMethod</name></member>
+    <member refid="class_w_s1__webservice_1a3c934047380a0debb627d77d51bb85c8" kind="function"><name>processRequest</name></member>
+  </compound>
+  <compound refid="namespaceactivity" kind="namespace"><name>activity</name>
+  </compound>
+  <compound refid="namespaceuser" kind="namespace"><name>user</name>
+  </compound>
+  <compound refid="namespacewebservice" kind="namespace"><name>webservice</name>
+  </compound>
+  <compound refid="namespacews1" kind="namespace"><name>ws1</name>
+    <member refid="namespacews1_1a0c001da13426a4a4fbc65939f2721338" kind="variable"><name>driver</name></member>
+    <member refid="namespacews1_1a85d897846bb64fe74a8ce36c2365e3b8" kind="variable"><name>f</name></member>
+    <member refid="namespacews1_1a9d8fc0a8a32a495bffe2f3e66a13ab8e" kind="variable"><name>tokens</name></member>
+    <member refid="namespacews1_1ac07862cea23cd71644827eee8c3622e6" kind="variable"><name>username</name></member>
+    <member refid="namespacews1_1ad43c3812e6d13e0518d9f8b8f463ffcf" kind="variable"><name>count</name></member>
+    <member refid="namespacews1_1ace64da0433dda1cd511da4909831ff15" kind="variable"><name>array</name></member>
+    <member refid="namespacews1_1a32ad4010f9e79f7b23a7e170ac7a800c" kind="variable"><name>inputElement</name></member>
+    <member refid="namespacews1_1a14268f4ce59d718e0395d95e88b37e29" kind="variable"><name>result</name></member>
+    <member refid="namespacews1_1a87b995ba02111ca86081f5ae3886c8f5" kind="variable"><name>activity</name></member>
+    <member refid="namespacews1_1a7c62704e81cfcf554c0420b08751b65c" kind="variable"><name>activityArray</name></member>
+    <member refid="namespacews1_1ae8297f2d5ee6711c964ee07a22fc96ab" kind="variable"><name>year</name></member>
+    <member refid="namespacews1_1a10cf9ac92c0899387f1f1a62852bde51" kind="variable"><name>month</name></member>
+    <member refid="namespacews1_1a6bbbe43de25827e2e48d9feaa729d87e" kind="variable"><name>day</name></member>
+    <member refid="namespacews1_1abbf1acd3467cbe7502f36cd561e32be4" kind="variable"><name>hour</name></member>
+    <member refid="namespacews1_1a8e516f18d16f29dc53ddc5f9a1808994" kind="variable"><name>minute</name></member>
+    <member refid="namespacews1_1abef64881d152a869ac7ab5e9ac0e9d21" kind="variable"><name>start</name></member>
+    <member refid="namespacews1_1afb358f48b1646c750fb9da6c6585be2b" kind="variable"><name>end</name></member>
+    <member refid="namespacews1_1a06e0fbefa5d1404ce6119bd455e4703e" kind="variable"><name>index</name></member>
+    <member refid="namespacews1_1a05a671c66aefea124cc08b76ea6d30bb" kind="variable"><name>test</name></member>
+  </compound>
+  <compound refid="namespace_w_s1" kind="namespace"><name>WS1</name>
+  </compound>
+  <compound refid="class_8activity_8php" kind="file"><name>class.activity.php</name>
+    <member refid="class_8activity_8php_1ac0e9dff4992409b11ff2197fe297af5e" kind="variable"><name>if</name></member>
+  </compound>
+  <compound refid="class_8user_8php" kind="file"><name>class.user.php</name>
+    <member refid="class_8user_8php_1a88cb244e17cabaf4dee5fb3acb8168e0" kind="variable"><name>if</name></member>
+  </compound>
+  <compound refid="class_8webservice_8php" kind="file"><name>class.webservice.php</name>
+    <member refid="class_8webservice_8php_1a88cb244e17cabaf4dee5fb3acb8168e0" kind="variable"><name>if</name></member>
+    <member refid="class_8webservice_8php_1a311685f250a0c7dbb10444068b95db6d" kind="variable"><name>$ws</name></member>
+    <member refid="class_8webservice_8php_1a3825c9b9060c2d6ef594385997cd60aa" kind="variable"><name>$namespace</name></member>
+    <member refid="class_8webservice_8php_1ab197a5bef9bb7041545b3f0b6db00f8f" kind="variable"><name>schemaTargetNamespace</name></member>
+  </compound>
+  <compound refid="insert_activity_8php" kind="file"><name>insertActivity.php</name>
+    <member refid="insert_activity_8php_1a3a056d69c5ee1124f1c80c048865bd3e" kind="variable"><name>$client</name></member>
+    <member refid="insert_activity_8php_1a0eb82aa5f81cf845de4b36cd653c42cf" kind="variable"><name>$username</name></member>
+    <member refid="insert_activity_8php_1a50a00e7de77365e00b117e73aa82fb9b" kind="variable"><name>$start</name></member>
+    <member refid="insert_activity_8php_1ac2040b96cd66d4d79b1d9fe0027d2f9b" kind="variable"><name>$end</name></member>
+    <member refid="insert_activity_8php_1ab2fc40d43824ea3e1ce5d86dee0d763b" kind="variable"><name>$name</name></member>
+    <member refid="insert_activity_8php_1a00ae4fcafb1145f5e968bdf920f83e2e" kind="variable"><name>$token</name></member>
+    <member refid="insert_activity_8php_1acfc00bd4a41804552c630950bf61a51f" kind="variable"><name>$err</name></member>
+    <member refid="insert_activity_8php_1a92a56c9f87957df1ea5de5f7dc4972c1" kind="variable"><name>$result</name></member>
+    <member refid="insert_activity_8php_1a1ca8352998003e269d19445a51cb3ce5" kind="variable"><name>else</name></member>
+  </compound>
+  <compound refid="interface_8php" kind="file"><name>interface.php</name>
+    <member refid="interface_8php_1a3a056d69c5ee1124f1c80c048865bd3e" kind="variable"><name>$client</name></member>
+    <member refid="interface_8php_1a55793c72c535d153ffd3f0e43377898b" kind="variable"><name>$firstname</name></member>
+    <member refid="interface_8php_1a1d2ddb6354180329b59e8b90ed94dc7f" kind="variable"><name>$lastname</name></member>
+    <member refid="interface_8php_1a0eb82aa5f81cf845de4b36cd653c42cf" kind="variable"><name>$username</name></member>
+    <member refid="interface_8php_1a1d5a040d6cd65b40daa47911e18adbb0" kind="variable"><name>$birthdate</name></member>
+    <member refid="interface_8php_1a0f1d7cfb9dc6f494b9014885205fc47e" kind="variable"><name>$gender</name></member>
+    <member refid="interface_8php_1acfc00bd4a41804552c630950bf61a51f" kind="variable"><name>$err</name></member>
+    <member refid="interface_8php_1a92a56c9f87957df1ea5de5f7dc4972c1" kind="variable"><name>$result</name></member>
+    <member refid="interface_8php_1a1ca8352998003e269d19445a51cb3ce5" kind="variable"><name>else</name></member>
+  </compound>
+  <compound refid="functions_8php" kind="file"><name>functions.php</name>
+    <member refid="functions_8php_1a3a3acb6698b0844c523e5cd124d1b9c0" kind="function"><name>dbConnection</name></member>
+    <member refid="functions_8php_1a194478d9ff0974f78087c41353c4b92b" kind="function"><name>queryMysqli</name></member>
+    <member refid="functions_8php_1a24a9bf83a1002d46ece83a93d14bd921" kind="function"><name>get</name></member>
+  </compound>
+  <compound refid="query_8php" kind="file"><name>query.php</name>
+    <member refid="query_8php_1a3a056d69c5ee1124f1c80c048865bd3e" kind="variable"><name>$client</name></member>
+    <member refid="query_8php_1a0eb82aa5f81cf845de4b36cd653c42cf" kind="variable"><name>$username</name></member>
+    <member refid="query_8php_1ab2fc40d43824ea3e1ce5d86dee0d763b" kind="variable"><name>$name</name></member>
+    <member refid="query_8php_1a00ae4fcafb1145f5e968bdf920f83e2e" kind="variable"><name>$token</name></member>
+    <member refid="query_8php_1acfc00bd4a41804552c630950bf61a51f" kind="variable"><name>$err</name></member>
+    <member refid="query_8php_1a92a56c9f87957df1ea5de5f7dc4972c1" kind="variable"><name>$result</name></member>
+    <member refid="query_8php_1a1ca8352998003e269d19445a51cb3ce5" kind="variable"><name>else</name></member>
+  </compound>
+  <compound refid="ws1_8py" kind="file"><name>ws1.py</name>
+  </compound>
+  <compound refid="ws1_client_8php" kind="file"><name>ws1Client.php</name>
+    <member refid="ws1_client_8php_1a3a056d69c5ee1124f1c80c048865bd3e" kind="variable"><name>$client</name></member>
+    <member refid="ws1_client_8php_1a0eb82aa5f81cf845de4b36cd653c42cf" kind="variable"><name>$username</name></member>
+    <member refid="ws1_client_8php_1ab2fc40d43824ea3e1ce5d86dee0d763b" kind="variable"><name>$name</name></member>
+    <member refid="ws1_client_8php_1a00ae4fcafb1145f5e968bdf920f83e2e" kind="variable"><name>$token</name></member>
+    <member refid="ws1_client_8php_1acfc00bd4a41804552c630950bf61a51f" kind="variable"><name>$err</name></member>
+    <member refid="ws1_client_8php_1a92a56c9f87957df1ea5de5f7dc4972c1" kind="variable"><name>$result</name></member>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_eabe2c60eeb37c1970fe9779a049cdf8" kind="dir"><name>teste</name>
+  </compound>
+</doxygenindex>

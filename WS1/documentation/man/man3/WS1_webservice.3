@@ -1,0 +1,123 @@
+.TH "WS1_webservice" 3 "Sun Jan 11 2015" "ws1" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WS1_webservice \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBcreateUser\fP ($firstname, $lastname, $username, $birthdate, $gender)"
+.br
+.ti -1c
+.RI "\fBcreateUserActivity\fP ($username, $start, $end, $activityName, $token)"
+.br
+.ti -1c
+.RI "\fBgetUserQuery\fP ($username, $activityName, $token)"
+.br
+.ti -1c
+.RI "\fBregisterMethod\fP ($nameMethod)"
+.br
+.ti -1c
+.RI "\fBprocessRequest\fP ()"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "\fB$server\fP = NULL"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "createUser ($firstname, $lastname, $username, $birthdate, $gender)"
+create an \fBWS1_user\fP object and make register itself\&. will return either a token or a message of error
+.PP
+public 
+.PP
+\fBAuthor:\fP
+.RS 4
+firstname and lastname of author, author@example.org 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIString\fP firstname 
+.br
+\fIString\fP lastname 
+.br
+\fIString\fP username 
+.br
+\fIString\fP birthdate 
+.br
+\fIchar\fP gender 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+WS1_xml 
+.RE
+.PP
+
+.SS "createUserActivity ($username, $start, $end, $activityName, $token)"
+create an \fBWS1_activity\fP after check if the user exists, and the given token is valid
+.PP
+public 
+.PP
+\fBAuthor:\fP
+.RS 4
+firstname and lastname of author, author@example.org 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIString\fP username 
+.br
+\fIString\fP start 
+.br
+\fIString\fP end 
+.br
+\fIString\fP activityName 
+.br
+\fIString\fP token 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+mixed 
+.RE
+.PP
+
+.SS "getUserQuery ($username, $activityName, $token)"
+get an array of \fBWS1_activity\fP objects
+.PP
+public 
+.PP
+\fBAuthor:\fP
+.RS 4
+firstname and lastname of author, author@example.org 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIString\fP username 
+.br
+\fIString\fP activityName 
+.br
+\fIString\fP token 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Array 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for ws1 from the source code\&.

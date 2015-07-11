@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_1_1activity_1_1php" kind="class" prot="public">
+    <compoundname>::activity::php</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>SE-Project - <ref refid="namespace_w_s1" kindref="compound">WS1</ref></para><para>$Id$</para><para>This file is part of SE-Project.</para><para>Automatically generated on 13.12.2014, 13:01:03 with ArgoUML PHP module (last revised <simplesect kind="rcs"><title>Date</title><para>2010-01-12 20:14:42 +0100 (Tue, 12 Jan 2010) </para></simplesect>
+)</para><para><simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.activity.php" line="4" column="1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

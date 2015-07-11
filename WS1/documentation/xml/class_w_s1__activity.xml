@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_w_s1__activity" kind="class" prot="public">
+    <compoundname>WS1_activity</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_w_s1__activity_1a0eb82aa5f81cf845de4b36cd653c42cf" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$username</definition>
+        <argsstring></argsstring>
+        <name>$username</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.activity.php" line="39" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.activity.php" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_s1__activity_1a50a00e7de77365e00b117e73aa82fb9b" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$start</definition>
+        <argsstring></argsstring>
+        <name>$start</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.activity.php" line="47" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.activity.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_s1__activity_1ac2040b96cd66d4d79b1d9fe0027d2f9b" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$end</definition>
+        <argsstring></argsstring>
+        <name>$end</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.activity.php" line="55" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.activity.php" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_s1__activity_1ae472409ec3f825fbb70ac3dd7a217e10" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$activityName</definition>
+        <argsstring></argsstring>
+        <name>$activityName</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.activity.php" line="63" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.activity.php" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_w_s1__activity_1a142106110874672839c09210568f5f78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($username, $start, $end, $activityName)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$username</declname>
+        </param>
+        <param>
+          <declname>$start</declname>
+        </param>
+        <param>
+          <declname>$end</declname>
+        </param>
+        <param>
+          <declname>$activityName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.activity.php" line="67" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.activity.php" bodystart="67" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s1__activity_1a81b37a3c9d639574e394f80c1138c75e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getUsername</definition>
+        <argsstring>()</argsstring>
+        <name>getUsername</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.activity.php" line="74" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.activity.php" bodystart="74" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s1__activity_1aa86e59bfce83f0dbfcd14a0c2a83e98e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getStart</definition>
+        <argsstring>()</argsstring>
+        <name>getStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.activity.php" line="78" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.activity.php" bodystart="78" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s1__activity_1a000b799500c1a9b8f1bd60c204191563" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getEnd</definition>
+        <argsstring>()</argsstring>
+        <name>getEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.activity.php" line="82" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.activity.php" bodystart="82" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s1__activity_1a9b566deb2ebd8bd785e67239540901f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getActivityName</definition>
+        <argsstring>()</argsstring>
+        <name>getActivityName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.activity.php" line="86" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.activity.php" bodystart="86" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s1__activity_1ad3e801b624751fc2a3f596f04f81dcaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>insertActivity</definition>
+        <argsstring>()</argsstring>
+        <name>insertActivity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>an WS1_Activity will try to insert itself into the database</para><para>public <simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink> </para></simplesect>
+<simplesect kind="return"><para>Boolean </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.activity.php" line="97" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.activity.php" bodystart="97" bodyend="104"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_w_s1__activity_1aa8ded292bcca041d208f8cee7a41e6cb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static queryActivity</definition>
+        <argsstring>($username, $activityName)</argsstring>
+        <name>queryActivity</name>
+        <param>
+          <declname>$username</declname>
+        </param>
+        <param>
+          <declname>$activityName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>query an activity by username and name of the activity</para><para>public <simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink> </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>username </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>activityName </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.activity.php" line="115" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.activity.php" bodystart="115" bodyend="128"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.activity.php" line="30" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.activity.php" bodystart="30" bodyend="129"/>
+    <listofallmembers>
+      <member refid="class_w_s1__activity_1ae472409ec3f825fbb70ac3dd7a217e10" prot="private" virt="non-virtual"><scope>WS1_activity</scope><name>$activityName</name></member>
+      <member refid="class_w_s1__activity_1ac2040b96cd66d4d79b1d9fe0027d2f9b" prot="private" virt="non-virtual"><scope>WS1_activity</scope><name>$end</name></member>
+      <member refid="class_w_s1__activity_1a50a00e7de77365e00b117e73aa82fb9b" prot="private" virt="non-virtual"><scope>WS1_activity</scope><name>$start</name></member>
+      <member refid="class_w_s1__activity_1a0eb82aa5f81cf845de4b36cd653c42cf" prot="private" virt="non-virtual"><scope>WS1_activity</scope><name>$username</name></member>
+      <member refid="class_w_s1__activity_1a142106110874672839c09210568f5f78" prot="public" virt="non-virtual"><scope>WS1_activity</scope><name>__construct</name></member>
+      <member refid="class_w_s1__activity_1a9b566deb2ebd8bd785e67239540901f0" prot="public" virt="non-virtual"><scope>WS1_activity</scope><name>getActivityName</name></member>
+      <member refid="class_w_s1__activity_1a000b799500c1a9b8f1bd60c204191563" prot="public" virt="non-virtual"><scope>WS1_activity</scope><name>getEnd</name></member>
+      <member refid="class_w_s1__activity_1aa86e59bfce83f0dbfcd14a0c2a83e98e" prot="public" virt="non-virtual"><scope>WS1_activity</scope><name>getStart</name></member>
+      <member refid="class_w_s1__activity_1a81b37a3c9d639574e394f80c1138c75e" prot="public" virt="non-virtual"><scope>WS1_activity</scope><name>getUsername</name></member>
+      <member refid="class_w_s1__activity_1ad3e801b624751fc2a3f596f04f81dcaf" prot="public" virt="non-virtual"><scope>WS1_activity</scope><name>insertActivity</name></member>
+      <member refid="class_w_s1__activity_1aa8ded292bcca041d208f8cee7a41e6cb" prot="public" virt="non-virtual"><scope>WS1_activity</scope><name>queryActivity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

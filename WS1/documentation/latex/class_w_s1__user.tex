@@ -1,0 +1,151 @@
+\hypertarget{class_w_s1__user}{\section{W\+S1\+\_\+user Class Reference}
+\label{class_w_s1__user}\index{W\+S1\+\_\+user@{W\+S1\+\_\+user}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_w_s1__user_a42c9621713b6dcdfb9edd5a7630b6d93}{{\bfseries get\+Firstname} ()}\label{class_w_s1__user_a42c9621713b6dcdfb9edd5a7630b6d93}
+
+\item 
+\hypertarget{class_w_s1__user_a5d606fdf02d35b79b74b91a88c09000f}{{\bfseries get\+Lastname} ()}\label{class_w_s1__user_a5d606fdf02d35b79b74b91a88c09000f}
+
+\item 
+\hypertarget{class_w_s1__user_a81b37a3c9d639574e394f80c1138c75e}{{\bfseries get\+Username} ()}\label{class_w_s1__user_a81b37a3c9d639574e394f80c1138c75e}
+
+\item 
+\hypertarget{class_w_s1__user_aeafdb95ad7b97a5ff68ac785e8c243e5}{{\bfseries get\+Birthdate} ()}\label{class_w_s1__user_aeafdb95ad7b97a5ff68ac785e8c243e5}
+
+\item 
+\hypertarget{class_w_s1__user_af7313369f22d5c761e16462abe0c6ae1}{{\bfseries get\+Gender} ()}\label{class_w_s1__user_af7313369f22d5c761e16462abe0c6ae1}
+
+\item 
+\hypertarget{class_w_s1__user_a211a2979c22afcd7d9056a2bb55aa449}{{\bfseries get\+Token} ()}\label{class_w_s1__user_a211a2979c22afcd7d9056a2bb55aa449}
+
+\item 
+\hypertarget{class_w_s1__user_a354f01fe06936133696743e346fc206b}{{\bfseries set\+Token} (\$token)}\label{class_w_s1__user_a354f01fe06936133696743e346fc206b}
+
+\item 
+\hyperlink{class_w_s1__user_a718968fc81da151fcdbbdab7bc8e731f}{\+\_\+\+\_\+construct} (\$firstname, \$lastname, \$username, \$birthdate, \$gender)
+\item 
+\hyperlink{class_w_s1__user_a1fdb0f05b888f4aa92b319775e488e70}{register\+User} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_w_s1__user_a4f6b9ae532f6f731ac3fa8b446e9a9dd}{validate\+User} (\$username, \$token)
+\item 
+static \hyperlink{class_w_s1__user_a63d3686b73e0b76cff02582d79d01845}{exist\+User} (\$username)
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_w_s1__user_a718968fc81da151fcdbbdab7bc8e731f}{\index{W\+S1\+\_\+user@{W\+S1\+\_\+user}!\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}}
+\index{\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}!W\+S1\+\_\+user@{W\+S1\+\_\+user}}
+\subsubsection[{\+\_\+\+\_\+construct}]{\setlength{\rightskip}{0pt plus 5cm}\+\_\+\+\_\+construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$firstname, }
+\item[{}]{\$lastname, }
+\item[{}]{\$username, }
+\item[{}]{\$birthdate, }
+\item[{}]{\$gender}
+\end{DoxyParamCaption}
+)}}\label{class_w_s1__user_a718968fc81da151fcdbbdab7bc8e731f}
+Constructor for the \hyperlink{class_w_s1__user}{W\+S1\+\_\+user} class
+
+public \begin{DoxyAuthor}{Author}
+firstname and lastname of author, \href{mailto:author@example.org}{\tt author@example.\+org} 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em String} & firstname \\
+\hline
+{\em String} & lastname \\
+\hline
+{\em String} & username \\
+\hline
+{\em String} & birthdate \\
+\hline
+{\em char} & gender \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_w_s1__user_a63d3686b73e0b76cff02582d79d01845}{\index{W\+S1\+\_\+user@{W\+S1\+\_\+user}!exist\+User@{exist\+User}}
+\index{exist\+User@{exist\+User}!W\+S1\+\_\+user@{W\+S1\+\_\+user}}
+\subsubsection[{exist\+User}]{\setlength{\rightskip}{0pt plus 5cm}static exist\+User (
+\begin{DoxyParamCaption}
+\item[{}]{\$username}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_w_s1__user_a63d3686b73e0b76cff02582d79d01845}
+checks if a given user exists in the database
+
+public \begin{DoxyAuthor}{Author}
+firstname and lastname of author, \href{mailto:author@example.org}{\tt author@example.\+org} 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em String} & username \\
+\hline
+{\em String} & token \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Boolean 
+\end{DoxyReturn}
+\hypertarget{class_w_s1__user_a1fdb0f05b888f4aa92b319775e488e70}{\index{W\+S1\+\_\+user@{W\+S1\+\_\+user}!register\+User@{register\+User}}
+\index{register\+User@{register\+User}!W\+S1\+\_\+user@{W\+S1\+\_\+user}}
+\subsubsection[{register\+User}]{\setlength{\rightskip}{0pt plus 5cm}register\+User (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_w_s1__user_a1fdb0f05b888f4aa92b319775e488e70}
+a \hyperlink{class_w_s1__user}{W\+S1\+\_\+user} object will try to insert itself in the database and will return either its token or an error message
+
+public \begin{DoxyAuthor}{Author}
+firstname and lastname of author, \href{mailto:author@example.org}{\tt author@example.\+org} 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em String} & firstname \\
+\hline
+{\em String} & lastname \\
+\hline
+{\em String} & username \\
+\hline
+{\em String} & birthdate \\
+\hline
+{\em char} & gender \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String 
+\end{DoxyReturn}
+\hypertarget{class_w_s1__user_a4f6b9ae532f6f731ac3fa8b446e9a9dd}{\index{W\+S1\+\_\+user@{W\+S1\+\_\+user}!validate\+User@{validate\+User}}
+\index{validate\+User@{validate\+User}!W\+S1\+\_\+user@{W\+S1\+\_\+user}}
+\subsubsection[{validate\+User}]{\setlength{\rightskip}{0pt plus 5cm}static validate\+User (
+\begin{DoxyParamCaption}
+\item[{}]{\$username, }
+\item[{}]{\$token}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_w_s1__user_a4f6b9ae532f6f731ac3fa8b446e9a9dd}
+validates an user with its username and token
+
+public \begin{DoxyAuthor}{Author}
+firstname and lastname of author, \href{mailto:author@example.org}{\tt author@example.\+org} 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em String} & username \\
+\hline
+{\em String} & token \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Boolean 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+class.\+user.\+php\end{DoxyCompactItemize}

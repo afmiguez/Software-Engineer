@@ -1,0 +1,156 @@
+.TH "WS1_user" 3 "Sun Jan 11 2015" "ws1" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WS1_user \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBgetFirstname\fP ()"
+.br
+.ti -1c
+.RI "\fBgetLastname\fP ()"
+.br
+.ti -1c
+.RI "\fBgetUsername\fP ()"
+.br
+.ti -1c
+.RI "\fBgetBirthdate\fP ()"
+.br
+.ti -1c
+.RI "\fBgetGender\fP ()"
+.br
+.ti -1c
+.RI "\fBgetToken\fP ()"
+.br
+.ti -1c
+.RI "\fBsetToken\fP ($token)"
+.br
+.ti -1c
+.RI "\fB__construct\fP ($firstname, $lastname, $username, $birthdate, $gender)"
+.br
+.ti -1c
+.RI "\fBregisterUser\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBvalidateUser\fP ($username, $token)"
+.br
+.ti -1c
+.RI "static \fBexistUser\fP ($username)"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "__construct ($firstname, $lastname, $username, $birthdate, $gender)"
+Constructor for the \fBWS1_user\fP class
+.PP
+public 
+.PP
+\fBAuthor:\fP
+.RS 4
+firstname and lastname of author, author@example.org 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIString\fP firstname 
+.br
+\fIString\fP lastname 
+.br
+\fIString\fP username 
+.br
+\fIString\fP birthdate 
+.br
+\fIchar\fP gender 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static existUser ($username)\fC [static]\fP"
+checks if a given user exists in the database
+.PP
+public 
+.PP
+\fBAuthor:\fP
+.RS 4
+firstname and lastname of author, author@example.org 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIString\fP username 
+.br
+\fIString\fP token 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Boolean 
+.RE
+.PP
+
+.SS "registerUser ()"
+a \fBWS1_user\fP object will try to insert itself in the database and will return either its token or an error message
+.PP
+public 
+.PP
+\fBAuthor:\fP
+.RS 4
+firstname and lastname of author, author@example.org 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIString\fP firstname 
+.br
+\fIString\fP lastname 
+.br
+\fIString\fP username 
+.br
+\fIString\fP birthdate 
+.br
+\fIchar\fP gender 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+String 
+.RE
+.PP
+
+.SS "static validateUser ($username, $token)\fC [static]\fP"
+validates an user with its username and token
+.PP
+public 
+.PP
+\fBAuthor:\fP
+.RS 4
+firstname and lastname of author, author@example.org 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIString\fP username 
+.br
+\fIString\fP token 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Boolean 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for ws1 from the source code\&.

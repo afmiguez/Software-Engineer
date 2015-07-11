@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="namespace_authorization" kind="namespace">
+    <compoundname>Authorization</compoundname>
+    <innerclass refid="class_1_1_authorization_1_1php" prot="public">::Authorization::php</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

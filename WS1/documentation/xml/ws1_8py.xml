@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="ws1_8py" kind="file">
+    <compoundname>ws1.py</compoundname>
+    <innernamespace refid="namespacews1">ws1</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacews1" refkind="compound"><highlight class="stringliteral">&quot;&quot;&quot;<sp/>@package<sp/>interface.py</highlight></codeline>
+<codeline lineno="2"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>This<sp/>code<sp/>would<sp/>automate<sp/>an<sp/>insertion<sp/>at<sp/>the<sp/>webservice1</highlight></codeline>
+<codeline lineno="3"><highlight class="stringliteral">&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>selenium<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>webdriver</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>selenium.webdriver.common.keys<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Keys</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>selenium.webdriver.common.by<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>By</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>random</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&quot;&quot;Create<sp/>a<sp/>Firefox<sp/>browser<sp/>instance.&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">driver<sp/>=<sp/>webdriver.Firefox()</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&quot;&quot;Open<sp/>the<sp/>url<sp/>of<sp/>of<sp/>the<sp/>webservice1<sp/>register<sp/>interface.&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">driver.get(</highlight><highlight class="stringliteral">&quot;http://192.168.163.128/ES-Project/WS1/interface.php&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">f<sp/>=<sp/>open(</highlight><highlight class="stringliteral">&apos;users.txt&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;</highlight><highlight class="stringliteral">r&apos;)</highlight></codeline>
+<codeline lineno="17"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="18"><highlight class="stringliteral">tokens=[]</highlight></codeline>
+<codeline lineno="19"><highlight class="stringliteral">username=[]</highlight></codeline>
+<codeline lineno="20"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="21"><highlight class="stringliteral">count=0</highlight></codeline>
+<codeline lineno="22"><highlight class="stringliteral"></highlight><highlight class="comment">#loop<sp/>for<sp/>insert<sp/>all<sp/>users<sp/>in<sp/>the<sp/>webservice<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>line<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>f:</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>array=line.split(</highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>inputElement<sp/>=<sp/>driver.find_element_by_name(</highlight><highlight class="stringliteral">&quot;firstname&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>inputElement.send_keys(array[0])</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>inputElement<sp/>=<sp/>driver.find_element_by_name(</highlight><highlight class="stringliteral">&quot;lastname&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>inputElement.send_keys(array[1])</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>inputElement<sp/>=<sp/>driver.find_element_by_name(</highlight><highlight class="stringliteral">&quot;username&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>inputElement.send_keys(array[2])</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>inputElement<sp/>=<sp/>driver.find_element_by_name(</highlight><highlight class="stringliteral">&quot;birthdate&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>inputElement.send_keys(array[3])</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>array[4]==</highlight><highlight class="stringliteral">&quot;m\n&quot;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>driver.find_element_by_xpath(</highlight><highlight class="stringliteral">&quot;//input[@name=&apos;gender&apos;][@value=&apos;m&apos;]&quot;</highlight><highlight class="normal">).click()</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>driver.find_element_by_xpath(</highlight><highlight class="stringliteral">&quot;//input[@name=&apos;gender&apos;][@value=&apos;f&apos;]&quot;</highlight><highlight class="normal">).click()</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>driver.find_element_by_id(</highlight><highlight class="stringliteral">&quot;submit&quot;</highlight><highlight class="normal">).click()</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>result=driver.find_element_by_xpath(</highlight><highlight class="stringliteral">&quot;//pre&quot;</highlight><highlight class="normal">).text</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#if<sp/>error<sp/>message<sp/>is<sp/>not<sp/>shown,<sp/>will<sp/>get<sp/>username<sp/>and<sp/>the<sp/>generated<sp/>token</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>result!=<sp/></highlight><highlight class="stringliteral">&quot;could<sp/>not<sp/>register&quot;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>username.append(array[2])</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tokens.append(result)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>count+=1</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>count==len(username):</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">print</highlight><highlight class="normal"><sp/>(</highlight><highlight class="stringliteral">&apos;register<sp/>user<sp/>test<sp/>is<sp/>ok&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>print(</highlight><highlight class="stringliteral">&apos;register<sp/>user<sp/>test<sp/>failed&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment">#open<sp/>the<sp/>insert<sp/>activity<sp/>interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">driver.get(</highlight><highlight class="stringliteral">&quot;http://192.168.163.128/ES-Project/WS1/insertActivity.php&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment">#array<sp/>for<sp/>test<sp/>activities</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">activity=[]</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">activity.append(</highlight><highlight class="stringliteral">&quot;corre&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">activity.append(</highlight><highlight class="stringliteral">&quot;dorme&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">activity.append(</highlight><highlight class="stringliteral">&quot;testa&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">activityArray=[]</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="comment">#counter<sp/>for<sp/>insertion<sp/>test</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">count=0</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>i<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>range(len(username)):</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>year=random.randint(2010,2014)</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>month=random.randint(1,12)</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>day=random.randint(1,28)</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>hour=random.randint(0,23)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>minute=random.randint(0,59)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>start=</highlight><highlight class="stringliteral">&quot;{}-{}-{}-{}-{}&quot;</highlight><highlight class="normal">.format(year,month,day,hour,minute)</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>end=start</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>index=random.randint(0,2)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>inputElement<sp/>=<sp/>driver.find_element_by_name(</highlight><highlight class="stringliteral">&quot;username&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>inputElement.send_keys(username[i])</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>inputElement<sp/>=<sp/>driver.find_element_by_name(</highlight><highlight class="stringliteral">&quot;start&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>inputElement.send_keys(start)</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>inputElement<sp/>=<sp/>driver.find_element_by_name(</highlight><highlight class="stringliteral">&quot;end&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>inputElement.send_keys(end)</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>inputElement<sp/>=<sp/>driver.find_element_by_name(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>inputElement.send_keys(activity[index])</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>activityArray.append(activity[index])</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>inputElement<sp/>=<sp/>driver.find_element_by_name(</highlight><highlight class="stringliteral">&quot;token&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>inputElement.send_keys(tokens[i])</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>driver.find_element_by_id(</highlight><highlight class="stringliteral">&quot;submit&quot;</highlight><highlight class="normal">).click()</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>result=driver.find_element_by_xpath(</highlight><highlight class="stringliteral">&quot;//pre&quot;</highlight><highlight class="normal">).text</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>result==<sp/></highlight><highlight class="stringliteral">&quot;activity<sp/>successfully<sp/>inserted&quot;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>count+=1</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>count==len(username):</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">print</highlight><highlight class="normal"><sp/>(</highlight><highlight class="stringliteral">&apos;insertion<sp/>activity<sp/>test<sp/>is<sp/>ok&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>print(</highlight><highlight class="stringliteral">&apos;insertion<sp/>activity<sp/>test<sp/>failed&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="110"><highlight class="normal">driver.get(</highlight><highlight class="stringliteral">&quot;http://192.168.163.128/ES-Project/WS1/query.php&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal">test=</highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>i<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>range(len(username)):</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>inputElement<sp/>=<sp/>driver.find_element_by_name(</highlight><highlight class="stringliteral">&quot;username&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>inputElement.send_keys(username[i])</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>inputElement<sp/>=<sp/>driver.find_element_by_name(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>inputElement.send_keys(activityArray[i])</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>inputElement<sp/>=<sp/>driver.find_element_by_name(</highlight><highlight class="stringliteral">&quot;token&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>inputElement.send_keys(tokens[i])</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>driver.find_element_by_id(</highlight><highlight class="stringliteral">&quot;submit&quot;</highlight><highlight class="normal">).click()</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>result=driver.find_element_by_xpath(</highlight><highlight class="stringliteral">&quot;//pre&quot;</highlight><highlight class="normal">).text</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;token<sp/>is<sp/>invalid&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>result<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;invalid<sp/>token&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>result<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;There&apos;s<sp/>no<sp/>activity<sp/>with<sp/>that<sp/>name&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>result:</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>test=</highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>test:</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">print</highlight><highlight class="normal"><sp/>(</highlight><highlight class="stringliteral">&apos;query<sp/>test<sp/>is<sp/>ok&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>print(</highlight><highlight class="stringliteral">&apos;query<sp/>test<sp/>failed&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="keywordflow">print</highlight><highlight class="normal"><sp/>(</highlight><highlight class="stringliteral">&apos;forcing<sp/>an<sp/>error<sp/>at<sp/>query&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal">inputElement<sp/>=<sp/>driver.find_element_by_name(</highlight><highlight class="stringliteral">&quot;username&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="138"><highlight class="normal">inputElement.send_keys(username[0])</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal">inputElement<sp/>=<sp/>driver.find_element_by_name(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="141"><highlight class="normal">inputElement.send_keys(activityArray[1])</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal">inputElement<sp/>=<sp/>driver.find_element_by_name(</highlight><highlight class="stringliteral">&quot;token&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="144"><highlight class="normal">inputElement.send_keys(tokens[2])</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal">driver.find_element_by_id(</highlight><highlight class="stringliteral">&quot;submit&quot;</highlight><highlight class="normal">).click()</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal">result=driver.find_element_by_xpath(</highlight><highlight class="stringliteral">&quot;//pre&quot;</highlight><highlight class="normal">).text</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="keywordflow">print</highlight><highlight class="normal"><sp/>(result)</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/teste/ws1.py"/>
+  </compounddef>
+</doxygen>

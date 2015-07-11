@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_w_s2___caretaker" kind="class" prot="public">
+    <compoundname>WS2_Caretaker</compoundname>
+    <basecompoundref refid="class_w_s2___user" prot="public" virt="non-virtual">WS2_User</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_w_s2___caretaker_1a42c9621713b6dcdfb9edd5a7630b6d93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getFirstname</definition>
+        <argsstring>()</argsstring>
+        <name>getFirstname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Caretaker.php" line="44" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Caretaker.php" bodystart="44" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s2___caretaker_1a5d606fdf02d35b79b74b91a88c09000f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getLastname</definition>
+        <argsstring>()</argsstring>
+        <name>getLastname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Caretaker.php" line="49" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Caretaker.php" bodystart="49" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s2___caretaker_1a81b37a3c9d639574e394f80c1138c75e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getUsername</definition>
+        <argsstring>()</argsstring>
+        <name>getUsername</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Caretaker.php" line="54" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Caretaker.php" bodystart="54" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s2___caretaker_1aeafdb95ad7b97a5ff68ac785e8c243e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getBirthdate</definition>
+        <argsstring>()</argsstring>
+        <name>getBirthdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Caretaker.php" line="59" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Caretaker.php" bodystart="59" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s2___caretaker_1af7313369f22d5c761e16462abe0c6ae1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getGender</definition>
+        <argsstring>()</argsstring>
+        <name>getGender</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Caretaker.php" line="64" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Caretaker.php" bodystart="64" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s2___caretaker_1a211a2979c22afcd7d9056a2bb55aa449" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getToken</definition>
+        <argsstring>()</argsstring>
+        <name>getToken</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Caretaker.php" line="69" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Caretaker.php" bodystart="69" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s2___caretaker_1a471f3c30d6c985670b14543252f47ab0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>registerCaretaker</definition>
+        <argsstring>()</argsstring>
+        <name>registerCaretaker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>register a caretaker into the ws2 database</para><para><simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink> return String </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Caretaker.php" line="81" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Caretaker.php" bodystart="81" bodyend="89"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_w_s2___caretaker_1ae218ade97397832878ac6b5758036632" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static existCaretaker</definition>
+        <argsstring>($caretaker)</argsstring>
+        <name>existCaretaker</name>
+        <param>
+          <declname>$caretaker</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>check if a given caretaker is in the database</para><para><simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink> </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>caretaker return boolean </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Caretaker.php" line="99" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Caretaker.php" bodystart="99" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="14">
+        <label>WS2_Caretaker</label>
+        <link refid="class_w_s2___caretaker"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>WS2_User</label>
+        <link refid="class_w_s2___user"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="16">
+        <label>WS2_Caretaker</label>
+        <link refid="class_w_s2___caretaker"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>WS2_User</label>
+        <link refid="class_w_s2___user"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Caretaker.php" line="42" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Caretaker.php" bodystart="40" bodyend="108"/>
+    <listofallmembers>
+      <member refid="class_w_s2___user_1a718968fc81da151fcdbbdab7bc8e731f" prot="public" virt="non-virtual"><scope>WS2_Caretaker</scope><name>__construct</name></member>
+      <member refid="class_w_s2___caretaker_1ae218ade97397832878ac6b5758036632" prot="public" virt="non-virtual"><scope>WS2_Caretaker</scope><name>existCaretaker</name></member>
+      <member refid="class_w_s2___caretaker_1aeafdb95ad7b97a5ff68ac785e8c243e5" prot="public" virt="non-virtual"><scope>WS2_Caretaker</scope><name>getBirthdate</name></member>
+      <member refid="class_w_s2___caretaker_1a42c9621713b6dcdfb9edd5a7630b6d93" prot="public" virt="non-virtual"><scope>WS2_Caretaker</scope><name>getFirstname</name></member>
+      <member refid="class_w_s2___caretaker_1af7313369f22d5c761e16462abe0c6ae1" prot="public" virt="non-virtual"><scope>WS2_Caretaker</scope><name>getGender</name></member>
+      <member refid="class_w_s2___caretaker_1a5d606fdf02d35b79b74b91a88c09000f" prot="public" virt="non-virtual"><scope>WS2_Caretaker</scope><name>getLastname</name></member>
+      <member refid="class_w_s2___caretaker_1a211a2979c22afcd7d9056a2bb55aa449" prot="public" virt="non-virtual"><scope>WS2_Caretaker</scope><name>getToken</name></member>
+      <member refid="class_w_s2___caretaker_1a81b37a3c9d639574e394f80c1138c75e" prot="public" virt="non-virtual"><scope>WS2_Caretaker</scope><name>getUsername</name></member>
+      <member refid="class_w_s2___caretaker_1a471f3c30d6c985670b14543252f47ab0" prot="public" virt="non-virtual"><scope>WS2_Caretaker</scope><name>registerCaretaker</name></member>
+      <member refid="class_w_s2___user_1a354f01fe06936133696743e346fc206b" prot="public" virt="non-virtual"><scope>WS2_Caretaker</scope><name>setToken</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

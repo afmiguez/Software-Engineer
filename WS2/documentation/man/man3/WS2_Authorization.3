@@ -1,0 +1,66 @@
+.TH "WS2_Authorization" 3 "Sun Jan 11 2015" "ws2" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WS2_Authorization \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBgetPacientInfoId\fP ()"
+.br
+.ti -1c
+.RI "\fBgetCaretaker\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBauthorizeCaretaker\fP ($caretaker, $pacientInfo)"
+.br
+.ti -1c
+.RI "static \fBisCaretakerAuthorized\fP ($pacientInfo, $caretaker)"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "static authorizeCaretaker ($caretaker, $pacientInfo)\fC [static]\fP"
+authorize a caretaker to have access to a pacient activity
+.PP
+\fBAuthor:\fP
+.RS 4
+firstname and lastname of author, author@example.org 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIString\fP caretaker 
+.br
+\fIInteger\fP pacientInfo return String 
+.RE
+.PP
+
+.SS "static isCaretakerAuthorized ($pacientInfo, $caretaker)\fC [static]\fP"
+check if a caretaker is authorized to access a pacient activity
+.PP
+\fBAuthor:\fP
+.RS 4
+firstname and lastname of author, author@example.org 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIString\fP caretaker 
+.br
+\fIInteger\fP pacientInfo return String 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for ws2 from the source code\&.

@@ -1,0 +1,85 @@
+.TH "WS2_PacientInfo" 3 "Sun Jan 11 2015" "ws2" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WS2_PacientInfo \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP ($pacient, $activity, $url)"
+.br
+.ti -1c
+.RI "\fBgetPacient\fP ()"
+.br
+.ti -1c
+.RI "\fBgetActivityName\fP ()"
+.br
+.ti -1c
+.RI "\fBgetUrl\fP ()"
+.br
+.ti -1c
+.RI "\fBgetToken\fP ()"
+.br
+.ti -1c
+.RI "\fBinsertPacientInfo\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBgetPacientInfo\fP ($pacient, $activityName)"
+.br
+.ti -1c
+.RI "static \fBgetUrlId\fP ($pacientInfo)"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "static getPacientInfo ($pacient, $activityName)\fC [static]\fP"
+get the numeric id of an pacient's activity in the ws2 database
+.PP
+\fBAuthor:\fP
+.RS 4
+firstname and lastname of author, author@example.org 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIString\fP pacient 
+.br
+\fIString\fP activityName return Integer 
+.RE
+.PP
+
+.SS "static getUrlId ($pacientInfo)\fC [static]\fP"
+get the url of an activity registered into the ws2 database
+.PP
+\fBAuthor:\fP
+.RS 4
+firstname and lastname of author, author@example.org 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIid\fP pacientInfo return String 
+.RE
+.PP
+
+.SS "insertPacientInfo ()"
+insert the activity in the ws2 database
+.PP
+\fBAuthor:\fP
+.RS 4
+firstname and lastname of author, author@example.org return String 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for ws2 from the source code\&.

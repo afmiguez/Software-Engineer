@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_w_s1__user" kind="class" prot="public">
+    <compoundname>WS1_user</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_w_s1__user_1a55793c72c535d153ffd3f0e43377898b" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$firstname</definition>
+        <argsstring></argsstring>
+        <name>$firstname</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" line="44" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_s1__user_1a1d2ddb6354180329b59e8b90ed94dc7f" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$lastname</definition>
+        <argsstring></argsstring>
+        <name>$lastname</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" line="52" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_s1__user_1a0eb82aa5f81cf845de4b36cd653c42cf" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$username</definition>
+        <argsstring></argsstring>
+        <name>$username</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" line="60" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_s1__user_1a00ae4fcafb1145f5e968bdf920f83e2e" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$token</definition>
+        <argsstring></argsstring>
+        <name>$token</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" line="68" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_s1__user_1a1d5a040d6cd65b40daa47911e18adbb0" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$birthdate</definition>
+        <argsstring></argsstring>
+        <name>$birthdate</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" line="76" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_s1__user_1a0f1d7cfb9dc6f494b9014885205fc47e" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$gender</definition>
+        <argsstring></argsstring>
+        <name>$gender</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" line="84" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_w_s1__user_1a42c9621713b6dcdfb9edd5a7630b6d93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getFirstname</definition>
+        <argsstring>()</argsstring>
+        <name>getFirstname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" line="88" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" bodystart="88" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s1__user_1a5d606fdf02d35b79b74b91a88c09000f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getLastname</definition>
+        <argsstring>()</argsstring>
+        <name>getLastname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" line="92" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" bodystart="92" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s1__user_1a81b37a3c9d639574e394f80c1138c75e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getUsername</definition>
+        <argsstring>()</argsstring>
+        <name>getUsername</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" line="96" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" bodystart="96" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s1__user_1aeafdb95ad7b97a5ff68ac785e8c243e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getBirthdate</definition>
+        <argsstring>()</argsstring>
+        <name>getBirthdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" line="100" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" bodystart="100" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s1__user_1af7313369f22d5c761e16462abe0c6ae1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getGender</definition>
+        <argsstring>()</argsstring>
+        <name>getGender</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" line="104" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" bodystart="104" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s1__user_1a211a2979c22afcd7d9056a2bb55aa449" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getToken</definition>
+        <argsstring>()</argsstring>
+        <name>getToken</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" line="108" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" bodystart="108" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s1__user_1a354f01fe06936133696743e346fc206b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setToken</definition>
+        <argsstring>($token)</argsstring>
+        <name>setToken</name>
+        <param>
+          <declname>$token</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" line="112" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" bodystart="112" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s1__user_1a718968fc81da151fcdbbdab7bc8e731f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($firstname, $lastname, $username, $birthdate, $gender)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$firstname</declname>
+        </param>
+        <param>
+          <declname>$lastname</declname>
+        </param>
+        <param>
+          <declname>$username</declname>
+        </param>
+        <param>
+          <declname>$birthdate</declname>
+        </param>
+        <param>
+          <declname>$gender</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor for the <ref refid="class_w_s1__user" kindref="compound">WS1_user</ref> class</para><para>public <simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink> </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>firstname </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>lastname </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>username </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>birthdate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>char</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>gender </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" line="128" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" bodystart="128" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s1__user_1a1fdb0f05b888f4aa92b319775e488e70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>registerUser</definition>
+        <argsstring>()</argsstring>
+        <name>registerUser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>a <ref refid="class_w_s1__user" kindref="compound">WS1_user</ref> object will try to insert itself in the database and will return either its token or an error message</para><para>public <simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink> </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>firstname </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>lastname </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>username </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>birthdate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>char</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>gender </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>String </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" line="148" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" bodystart="148" bodyend="156"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_w_s1__user_1a4f6b9ae532f6f731ac3fa8b446e9a9dd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static validateUser</definition>
+        <argsstring>($username, $token)</argsstring>
+        <name>validateUser</name>
+        <param>
+          <declname>$username</declname>
+        </param>
+        <param>
+          <declname>$token</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>validates an user with its username and token</para><para>public <simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink> </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>username </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>token </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Boolean </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" line="168" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" bodystart="168" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s1__user_1a63d3686b73e0b76cff02582d79d01845" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static existUser</definition>
+        <argsstring>($username)</argsstring>
+        <name>existUser</name>
+        <param>
+          <declname>$username</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>checks if a given user exists in the database</para><para>public <simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink> </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>username </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>token </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Boolean </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" line="187" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" bodystart="187" bodyend="194"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" line="35" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.user.php" bodystart="35" bodyend="195"/>
+    <listofallmembers>
+      <member refid="class_w_s1__user_1a1d5a040d6cd65b40daa47911e18adbb0" prot="private" virt="non-virtual"><scope>WS1_user</scope><name>$birthdate</name></member>
+      <member refid="class_w_s1__user_1a55793c72c535d153ffd3f0e43377898b" prot="private" virt="non-virtual"><scope>WS1_user</scope><name>$firstname</name></member>
+      <member refid="class_w_s1__user_1a0f1d7cfb9dc6f494b9014885205fc47e" prot="private" virt="non-virtual"><scope>WS1_user</scope><name>$gender</name></member>
+      <member refid="class_w_s1__user_1a1d2ddb6354180329b59e8b90ed94dc7f" prot="private" virt="non-virtual"><scope>WS1_user</scope><name>$lastname</name></member>
+      <member refid="class_w_s1__user_1a00ae4fcafb1145f5e968bdf920f83e2e" prot="private" virt="non-virtual"><scope>WS1_user</scope><name>$token</name></member>
+      <member refid="class_w_s1__user_1a0eb82aa5f81cf845de4b36cd653c42cf" prot="private" virt="non-virtual"><scope>WS1_user</scope><name>$username</name></member>
+      <member refid="class_w_s1__user_1a718968fc81da151fcdbbdab7bc8e731f" prot="public" virt="non-virtual"><scope>WS1_user</scope><name>__construct</name></member>
+      <member refid="class_w_s1__user_1a63d3686b73e0b76cff02582d79d01845" prot="public" virt="non-virtual"><scope>WS1_user</scope><name>existUser</name></member>
+      <member refid="class_w_s1__user_1aeafdb95ad7b97a5ff68ac785e8c243e5" prot="public" virt="non-virtual"><scope>WS1_user</scope><name>getBirthdate</name></member>
+      <member refid="class_w_s1__user_1a42c9621713b6dcdfb9edd5a7630b6d93" prot="public" virt="non-virtual"><scope>WS1_user</scope><name>getFirstname</name></member>
+      <member refid="class_w_s1__user_1af7313369f22d5c761e16462abe0c6ae1" prot="public" virt="non-virtual"><scope>WS1_user</scope><name>getGender</name></member>
+      <member refid="class_w_s1__user_1a5d606fdf02d35b79b74b91a88c09000f" prot="public" virt="non-virtual"><scope>WS1_user</scope><name>getLastname</name></member>
+      <member refid="class_w_s1__user_1a211a2979c22afcd7d9056a2bb55aa449" prot="public" virt="non-virtual"><scope>WS1_user</scope><name>getToken</name></member>
+      <member refid="class_w_s1__user_1a81b37a3c9d639574e394f80c1138c75e" prot="public" virt="non-virtual"><scope>WS1_user</scope><name>getUsername</name></member>
+      <member refid="class_w_s1__user_1a1fdb0f05b888f4aa92b319775e488e70" prot="public" virt="non-virtual"><scope>WS1_user</scope><name>registerUser</name></member>
+      <member refid="class_w_s1__user_1a354f01fe06936133696743e346fc206b" prot="public" virt="non-virtual"><scope>WS1_user</scope><name>setToken</name></member>
+      <member refid="class_w_s1__user_1a4f6b9ae532f6f731ac3fa8b446e9a9dd" prot="public" virt="non-virtual"><scope>WS1_user</scope><name>validateUser</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

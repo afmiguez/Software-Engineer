@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_w_s2___authorization" kind="class" prot="public">
+    <compoundname>WS2_Authorization</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_w_s2___authorization_1aff6a65d94f0b482956774388fc69e8b2" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$pacient_info_id</definition>
+        <argsstring></argsstring>
+        <name>$pacient_info_id</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Authorization.php" line="55" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Authorization.php" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_w_s2___authorization_1aa201c4b43385db01aded26315b0a9114" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$caretaker</definition>
+        <argsstring></argsstring>
+        <name>$caretaker</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Authorization.php" line="63" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Authorization.php" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_w_s2___authorization_1ac2158e32a66541df88687210ec8fa1e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getPacientInfoId</definition>
+        <argsstring>()</argsstring>
+        <name>getPacientInfoId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Authorization.php" line="66" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Authorization.php" bodystart="66" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s2___authorization_1a686e842b224af6da713dd6437c9c9b7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getCaretaker</definition>
+        <argsstring>()</argsstring>
+        <name>getCaretaker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Authorization.php" line="70" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Authorization.php" bodystart="70" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_w_s2___authorization_1a279b221e07fd283920ebfb16ca8b3be0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static authorizeCaretaker</definition>
+        <argsstring>($caretaker, $pacientInfo)</argsstring>
+        <name>authorizeCaretaker</name>
+        <param>
+          <declname>$caretaker</declname>
+        </param>
+        <param>
+          <declname>$pacientInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>authorize a caretaker to have access to a pacient activity</para><para><simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink> </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>caretaker </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Integer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pacientInfo return String </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Authorization.php" line="82" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Authorization.php" bodystart="82" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s2___authorization_1a9a173416a1ed7d16e09512827febecc8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static isCaretakerAuthorized</definition>
+        <argsstring>($pacientInfo, $caretaker)</argsstring>
+        <name>isCaretakerAuthorized</name>
+        <param>
+          <declname>$pacientInfo</declname>
+        </param>
+        <param>
+          <declname>$caretaker</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>check if a caretaker is authorized to access a pacient activity</para><para><simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink> </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>caretaker </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Integer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pacientInfo return String </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Authorization.php" line="100" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Authorization.php" bodystart="100" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Authorization.php" line="48" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/class.Authorization.php" bodystart="47" bodyend="109"/>
+    <listofallmembers>
+      <member refid="class_w_s2___authorization_1aa201c4b43385db01aded26315b0a9114" prot="private" virt="non-virtual"><scope>WS2_Authorization</scope><name>$caretaker</name></member>
+      <member refid="class_w_s2___authorization_1aff6a65d94f0b482956774388fc69e8b2" prot="private" virt="non-virtual"><scope>WS2_Authorization</scope><name>$pacient_info_id</name></member>
+      <member refid="class_w_s2___authorization_1a279b221e07fd283920ebfb16ca8b3be0" prot="public" virt="non-virtual"><scope>WS2_Authorization</scope><name>authorizeCaretaker</name></member>
+      <member refid="class_w_s2___authorization_1a686e842b224af6da713dd6437c9c9b7a" prot="public" virt="non-virtual"><scope>WS2_Authorization</scope><name>getCaretaker</name></member>
+      <member refid="class_w_s2___authorization_1ac2158e32a66541df88687210ec8fa1e5" prot="public" virt="non-virtual"><scope>WS2_Authorization</scope><name>getPacientInfoId</name></member>
+      <member refid="class_w_s2___authorization_1a9a173416a1ed7d16e09512827febecc8" prot="public" virt="non-virtual"><scope>WS2_Authorization</scope><name>isCaretakerAuthorized</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

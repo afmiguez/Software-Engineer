@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="dir_eabe2c60eeb37c1970fe9779a049cdf8" kind="dir">
+    <compoundname>teste</compoundname>
+    <innerfile refid="ws1_8py">ws1.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/teste/"/>
+  </compounddef>
+</doxygen>

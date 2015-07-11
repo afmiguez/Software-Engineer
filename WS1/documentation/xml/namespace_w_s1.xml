@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="namespace_w_s1" kind="namespace">
+    <compoundname>WS1</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Represents an activity of webservice 1</para><para>public <simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink></para></simplesect>
+Represents an user of webservice 1</para><para>public <simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink></para></simplesect>
+include <ref refid="class_w_s1__user" kindref="compound">WS1_user</ref></para><para><simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink> include nusoap library</para></simplesect>
+<simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink> include our library with some DB functions</para></simplesect>
+<simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink> Short description of class <ref refid="class_w_s1__webservice" kindref="compound">WS1_webservice</ref></para></simplesect>
+public <simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.activity.php" line="14" column="1"/>
+  </compounddef>
+</doxygen>

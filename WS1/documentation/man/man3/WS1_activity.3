@@ -1,0 +1,82 @@
+.TH "WS1_activity" 3 "Sun Jan 11 2015" "ws1" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WS1_activity \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__construct\fP ($username, $start, $end, $activityName)"
+.br
+.ti -1c
+.RI "\fBgetUsername\fP ()"
+.br
+.ti -1c
+.RI "\fBgetStart\fP ()"
+.br
+.ti -1c
+.RI "\fBgetEnd\fP ()"
+.br
+.ti -1c
+.RI "\fBgetActivityName\fP ()"
+.br
+.ti -1c
+.RI "\fBinsertActivity\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBqueryActivity\fP ($username, $activityName)"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "insertActivity ()"
+an WS1_Activity will try to insert itself into the database
+.PP
+public 
+.PP
+\fBAuthor:\fP
+.RS 4
+firstname and lastname of author, author@example.org 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Boolean 
+.RE
+.PP
+
+.SS "static queryActivity ($username, $activityName)\fC [static]\fP"
+query an activity by username and name of the activity
+.PP
+public 
+.PP
+\fBAuthor:\fP
+.RS 4
+firstname and lastname of author, author@example.org 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIString\fP username 
+.br
+\fIString\fP activityName 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Array 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for ws1 from the source code\&.

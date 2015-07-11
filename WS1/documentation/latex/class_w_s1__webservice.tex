@@ -1,0 +1,122 @@
+\hypertarget{class_w_s1__webservice}{\section{W\+S1\+\_\+webservice Class Reference}
+\label{class_w_s1__webservice}\index{W\+S1\+\_\+webservice@{W\+S1\+\_\+webservice}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_w_s1__webservice_a1b62ed1851f70edfd18f49d06e68dc50}{create\+User} (\$firstname, \$lastname, \$username, \$birthdate, \$gender)
+\item 
+\hyperlink{class_w_s1__webservice_a6546d97dda46091660111f56f0740b87}{create\+User\+Activity} (\$username, \$start, \$end, \$activity\+Name, \$token)
+\item 
+\hyperlink{class_w_s1__webservice_ac6205c0eeff28a018e749336e55b084d}{get\+User\+Query} (\$username, \$activity\+Name, \$token)
+\item 
+\hypertarget{class_w_s1__webservice_ab93521bcae8c90f705635a5788ce1def}{{\bfseries register\+Method} (\$name\+Method)}\label{class_w_s1__webservice_ab93521bcae8c90f705635a5788ce1def}
+
+\item 
+\hypertarget{class_w_s1__webservice_a3c934047380a0debb627d77d51bb85c8}{{\bfseries process\+Request} ()}\label{class_w_s1__webservice_a3c934047380a0debb627d77d51bb85c8}
+
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_w_s1__webservice_ad135cc8a47e55f0829949cf62214170f}{{\bfseries \$server} = N\+U\+L\+L}\label{class_w_s1__webservice_ad135cc8a47e55f0829949cf62214170f}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_w_s1__webservice_a1b62ed1851f70edfd18f49d06e68dc50}{\index{W\+S1\+\_\+webservice@{W\+S1\+\_\+webservice}!create\+User@{create\+User}}
+\index{create\+User@{create\+User}!W\+S1\+\_\+webservice@{W\+S1\+\_\+webservice}}
+\subsubsection[{create\+User}]{\setlength{\rightskip}{0pt plus 5cm}create\+User (
+\begin{DoxyParamCaption}
+\item[{}]{\$firstname, }
+\item[{}]{\$lastname, }
+\item[{}]{\$username, }
+\item[{}]{\$birthdate, }
+\item[{}]{\$gender}
+\end{DoxyParamCaption}
+)}}\label{class_w_s1__webservice_a1b62ed1851f70edfd18f49d06e68dc50}
+create an \hyperlink{class_w_s1__user}{W\+S1\+\_\+user} object and make register itself. will return either a token or a message of error
+
+public \begin{DoxyAuthor}{Author}
+firstname and lastname of author, \href{mailto:author@example.org}{\tt author@example.\+org} 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em String} & firstname \\
+\hline
+{\em String} & lastname \\
+\hline
+{\em String} & username \\
+\hline
+{\em String} & birthdate \\
+\hline
+{\em char} & gender \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+W\+S1\+\_\+xml 
+\end{DoxyReturn}
+\hypertarget{class_w_s1__webservice_a6546d97dda46091660111f56f0740b87}{\index{W\+S1\+\_\+webservice@{W\+S1\+\_\+webservice}!create\+User\+Activity@{create\+User\+Activity}}
+\index{create\+User\+Activity@{create\+User\+Activity}!W\+S1\+\_\+webservice@{W\+S1\+\_\+webservice}}
+\subsubsection[{create\+User\+Activity}]{\setlength{\rightskip}{0pt plus 5cm}create\+User\+Activity (
+\begin{DoxyParamCaption}
+\item[{}]{\$username, }
+\item[{}]{\$start, }
+\item[{}]{\$end, }
+\item[{}]{\$activity\+Name, }
+\item[{}]{\$token}
+\end{DoxyParamCaption}
+)}}\label{class_w_s1__webservice_a6546d97dda46091660111f56f0740b87}
+create an \hyperlink{class_w_s1__activity}{W\+S1\+\_\+activity} after check if the user exists, and the given token is valid
+
+public \begin{DoxyAuthor}{Author}
+firstname and lastname of author, \href{mailto:author@example.org}{\tt author@example.\+org} 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em String} & username \\
+\hline
+{\em String} & start \\
+\hline
+{\em String} & end \\
+\hline
+{\em String} & activity\+Name \\
+\hline
+{\em String} & token \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\hypertarget{class_w_s1__webservice_ac6205c0eeff28a018e749336e55b084d}{\index{W\+S1\+\_\+webservice@{W\+S1\+\_\+webservice}!get\+User\+Query@{get\+User\+Query}}
+\index{get\+User\+Query@{get\+User\+Query}!W\+S1\+\_\+webservice@{W\+S1\+\_\+webservice}}
+\subsubsection[{get\+User\+Query}]{\setlength{\rightskip}{0pt plus 5cm}get\+User\+Query (
+\begin{DoxyParamCaption}
+\item[{}]{\$username, }
+\item[{}]{\$activity\+Name, }
+\item[{}]{\$token}
+\end{DoxyParamCaption}
+)}}\label{class_w_s1__webservice_ac6205c0eeff28a018e749336e55b084d}
+get an array of \hyperlink{class_w_s1__activity}{W\+S1\+\_\+activity} objects
+
+public \begin{DoxyAuthor}{Author}
+firstname and lastname of author, \href{mailto:author@example.org}{\tt author@example.\+org} 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em String} & username \\
+\hline
+{\em String} & activity\+Name \\
+\hline
+{\em String} & token \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Array 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+class.\+webservice.\+php\end{DoxyCompactItemize}

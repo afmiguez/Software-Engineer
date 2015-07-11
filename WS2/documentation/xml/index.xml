@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.8">
+  <compound refid="class_1_1_authorization_1_1php" kind="class"><name>::Authorization::php</name>
+  </compound>
+  <compound refid="class_1_1_caretaker_1_1php" kind="class"><name>::Caretaker::php</name>
+  </compound>
+  <compound refid="class_1_1_user_1_1php" kind="class"><name>::User::php</name>
+  </compound>
+  <compound refid="class_1_1_pacient_1_1php" kind="class"><name>::Pacient::php</name>
+  </compound>
+  <compound refid="class_1_1_pacient_info_1_1php" kind="class"><name>::PacientInfo::php</name>
+  </compound>
+  <compound refid="class_1_1_webservice_1_1php" kind="class"><name>::Webservice::php</name>
+  </compound>
+  <compound refid="class_w_s2___authorization" kind="class"><name>WS2_Authorization</name>
+    <member refid="class_w_s2___authorization_1aff6a65d94f0b482956774388fc69e8b2" kind="variable"><name>$pacient_info_id</name></member>
+    <member refid="class_w_s2___authorization_1aa201c4b43385db01aded26315b0a9114" kind="variable"><name>$caretaker</name></member>
+    <member refid="class_w_s2___authorization_1ac2158e32a66541df88687210ec8fa1e5" kind="function"><name>getPacientInfoId</name></member>
+    <member refid="class_w_s2___authorization_1a686e842b224af6da713dd6437c9c9b7a" kind="function"><name>getCaretaker</name></member>
+    <member refid="class_w_s2___authorization_1a279b221e07fd283920ebfb16ca8b3be0" kind="function"><name>authorizeCaretaker</name></member>
+    <member refid="class_w_s2___authorization_1a9a173416a1ed7d16e09512827febecc8" kind="function"><name>isCaretakerAuthorized</name></member>
+  </compound>
+  <compound refid="class_w_s2___caretaker" kind="class"><name>WS2_Caretaker</name>
+    <member refid="class_w_s2___caretaker_1a42c9621713b6dcdfb9edd5a7630b6d93" kind="function"><name>getFirstname</name></member>
+    <member refid="class_w_s2___caretaker_1a5d606fdf02d35b79b74b91a88c09000f" kind="function"><name>getLastname</name></member>
+    <member refid="class_w_s2___caretaker_1a81b37a3c9d639574e394f80c1138c75e" kind="function"><name>getUsername</name></member>
+    <member refid="class_w_s2___caretaker_1aeafdb95ad7b97a5ff68ac785e8c243e5" kind="function"><name>getBirthdate</name></member>
+    <member refid="class_w_s2___caretaker_1af7313369f22d5c761e16462abe0c6ae1" kind="function"><name>getGender</name></member>
+    <member refid="class_w_s2___caretaker_1a211a2979c22afcd7d9056a2bb55aa449" kind="function"><name>getToken</name></member>
+    <member refid="class_w_s2___caretaker_1a471f3c30d6c985670b14543252f47ab0" kind="function"><name>registerCaretaker</name></member>
+    <member refid="class_w_s2___caretaker_1ae218ade97397832878ac6b5758036632" kind="function"><name>existCaretaker</name></member>
+  </compound>
+  <compound refid="class_w_s2___pacient" kind="class"><name>WS2_Pacient</name>
+    <member refid="class_w_s2___pacient_1a42c9621713b6dcdfb9edd5a7630b6d93" kind="function"><name>getFirstname</name></member>
+    <member refid="class_w_s2___pacient_1a5d606fdf02d35b79b74b91a88c09000f" kind="function"><name>getLastname</name></member>
+    <member refid="class_w_s2___pacient_1a81b37a3c9d639574e394f80c1138c75e" kind="function"><name>getUsername</name></member>
+    <member refid="class_w_s2___pacient_1aeafdb95ad7b97a5ff68ac785e8c243e5" kind="function"><name>getBirthdate</name></member>
+    <member refid="class_w_s2___pacient_1af7313369f22d5c761e16462abe0c6ae1" kind="function"><name>getGender</name></member>
+    <member refid="class_w_s2___pacient_1a211a2979c22afcd7d9056a2bb55aa449" kind="function"><name>getToken</name></member>
+    <member refid="class_w_s2___pacient_1a46300e082e774bfcef7b063ea442cf77" kind="function"><name>registerPacient</name></member>
+    <member refid="class_w_s2___pacient_1a07a6e01f4de7bc49344ec16dbaaa5722" kind="function"><name>existPacient</name></member>
+    <member refid="class_w_s2___pacient_1ac8852c86222d7ee44ae459d779d560dd" kind="function"><name>validatePacient</name></member>
+  </compound>
+  <compound refid="class_w_s2___pacient_info" kind="class"><name>WS2_PacientInfo</name>
+    <member refid="class_w_s2___pacient_info_1acf215f34a917d014776ce684a9ee8909" kind="variable"><name>$url</name></member>
+    <member refid="class_w_s2___pacient_info_1a3fa671db28976c46bc40592b61ce17f7" kind="variable"><name>$pacient</name></member>
+    <member refid="class_w_s2___pacient_info_1ae472409ec3f825fbb70ac3dd7a217e10" kind="variable"><name>$activityName</name></member>
+    <member refid="class_w_s2___pacient_info_1ace1b038293256ce98dc046e3839d34d2" kind="function"><name>__construct</name></member>
+    <member refid="class_w_s2___pacient_info_1ab285c759f6a4224312a1f1b12971f146" kind="function"><name>getPacient</name></member>
+    <member refid="class_w_s2___pacient_info_1a9b566deb2ebd8bd785e67239540901f0" kind="function"><name>getActivityName</name></member>
+    <member refid="class_w_s2___pacient_info_1accd14bda49a1044b4d8dd93f020f11ee" kind="function"><name>getUrl</name></member>
+    <member refid="class_w_s2___pacient_info_1a211a2979c22afcd7d9056a2bb55aa449" kind="function"><name>getToken</name></member>
+    <member refid="class_w_s2___pacient_info_1ac1456e33a827b3e52c2a783960f8fdd9" kind="function"><name>insertPacientInfo</name></member>
+    <member refid="class_w_s2___pacient_info_1abf5833098432d4a2136d982a612308cc" kind="function"><name>getPacientInfo</name></member>
+    <member refid="class_w_s2___pacient_info_1adf5a2a516e9b8c8cff86c005fe5bbb40" kind="function"><name>getUrlId</name></member>
+  </compound>
+  <compound refid="class_w_s2___user" kind="class"><name>WS2_User</name>
+    <member refid="class_w_s2___user_1a55793c72c535d153ffd3f0e43377898b" kind="variable"><name>$firstname</name></member>
+    <member refid="class_w_s2___user_1a1d2ddb6354180329b59e8b90ed94dc7f" kind="variable"><name>$lastname</name></member>
+    <member refid="class_w_s2___user_1a0eb82aa5f81cf845de4b36cd653c42cf" kind="variable"><name>$username</name></member>
+    <member refid="class_w_s2___user_1a00ae4fcafb1145f5e968bdf920f83e2e" kind="variable"><name>$token</name></member>
+    <member refid="class_w_s2___user_1a1d5a040d6cd65b40daa47911e18adbb0" kind="variable"><name>$birthdate</name></member>
+    <member refid="class_w_s2___user_1a0f1d7cfb9dc6f494b9014885205fc47e" kind="variable"><name>$gender</name></member>
+    <member refid="class_w_s2___user_1a42c9621713b6dcdfb9edd5a7630b6d93" kind="function"><name>getFirstname</name></member>
+    <member refid="class_w_s2___user_1a5d606fdf02d35b79b74b91a88c09000f" kind="function"><name>getLastname</name></member>
+    <member refid="class_w_s2___user_1a81b37a3c9d639574e394f80c1138c75e" kind="function"><name>getUsername</name></member>
+    <member refid="class_w_s2___user_1aeafdb95ad7b97a5ff68ac785e8c243e5" kind="function"><name>getBirthdate</name></member>
+    <member refid="class_w_s2___user_1af7313369f22d5c761e16462abe0c6ae1" kind="function"><name>getGender</name></member>
+    <member refid="class_w_s2___user_1a211a2979c22afcd7d9056a2bb55aa449" kind="function"><name>getToken</name></member>
+    <member refid="class_w_s2___user_1a354f01fe06936133696743e346fc206b" kind="function"><name>setToken</name></member>
+    <member refid="class_w_s2___user_1a718968fc81da151fcdbbdab7bc8e731f" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="class_w_s2___webservice" kind="class"><name>WS2_Webservice</name>
+    <member refid="class_w_s2___webservice_1ad135cc8a47e55f0829949cf62214170f" kind="variable"><name>$server</name></member>
+    <member refid="class_w_s2___webservice_1a095c5d389db211932136b53f25f39685" kind="function"><name>__construct</name></member>
+    <member refid="class_w_s2___webservice_1a94e3fd34f1e7778d69013bc3ac57a1d7" kind="function"><name>registerPacient</name></member>
+    <member refid="class_w_s2___webservice_1a3bd4c38e0625889172f441a6c637cc42" kind="function"><name>registerCaretaker</name></member>
+    <member refid="class_w_s2___webservice_1adb7e6ca2d6bbdfa55a7ccb60c5ce549e" kind="function"><name>insertInfoLocation</name></member>
+    <member refid="class_w_s2___webservice_1ab8824cfa47f27b3ea470c4ceaff1ad99" kind="function"><name>authorizeCaretaker</name></member>
+    <member refid="class_w_s2___webservice_1ab93521bcae8c90f705635a5788ce1def" kind="function"><name>registerMethod</name></member>
+    <member refid="class_w_s2___webservice_1a3c934047380a0debb627d77d51bb85c8" kind="function"><name>processRequest</name></member>
+  </compound>
+  <compound refid="namespace_authorization" kind="namespace"><name>Authorization</name>
+  </compound>
+  <compound refid="namespace_caretaker" kind="namespace"><name>Caretaker</name>
+  </compound>
+  <compound refid="namespace_pacient" kind="namespace"><name>Pacient</name>
+  </compound>
+  <compound refid="namespace_pacient_info" kind="namespace"><name>PacientInfo</name>
+  </compound>
+  <compound refid="namespace_user" kind="namespace"><name>User</name>
+  </compound>
+  <compound refid="namespace_webservice" kind="namespace"><name>Webservice</name>
+  </compound>
+  <compound refid="namespace_w_s2" kind="namespace"><name>WS2</name>
+  </compound>
+  <compound refid="class_8_authorization_8php" kind="file"><name>class.Authorization.php</name>
+    <member refid="class_8_authorization_8php_1ac0e9dff4992409b11ff2197fe297af5e" kind="variable"><name>if</name></member>
+  </compound>
+  <compound refid="class_8_caretaker_8php" kind="file"><name>class.Caretaker.php</name>
+    <member refid="class_8_caretaker_8php_1a88cb244e17cabaf4dee5fb3acb8168e0" kind="variable"><name>if</name></member>
+  </compound>
+  <compound refid="class_8_pacient_8php" kind="file"><name>class.Pacient.php</name>
+    <member refid="class_8_pacient_8php_1a88cb244e17cabaf4dee5fb3acb8168e0" kind="variable"><name>if</name></member>
+  </compound>
+  <compound refid="class_8_pacient_info_8php" kind="file"><name>class.PacientInfo.php</name>
+    <member refid="class_8_pacient_info_8php_1a88cb244e17cabaf4dee5fb3acb8168e0" kind="variable"><name>if</name></member>
+  </compound>
+  <compound refid="class_8_user_8php" kind="file"><name>class.User.php</name>
+  </compound>
+  <compound refid="class_8_webservice_8php" kind="file"><name>class.Webservice.php</name>
+    <member refid="class_8_webservice_8php_1a88cb244e17cabaf4dee5fb3acb8168e0" kind="variable"><name>if</name></member>
+    <member refid="class_8_webservice_8php_1a311685f250a0c7dbb10444068b95db6d" kind="variable"><name>$ws</name></member>
+    <member refid="class_8_webservice_8php_1a3825c9b9060c2d6ef594385997cd60aa" kind="variable"><name>$namespace</name></member>
+    <member refid="class_8_webservice_8php_1ab197a5bef9bb7041545b3f0b6db00f8f" kind="variable"><name>schemaTargetNamespace</name></member>
+  </compound>
+  <compound refid="interface_caretaker_8php" kind="file"><name>interfaceCaretaker.php</name>
+    <member refid="interface_caretaker_8php_1a3a056d69c5ee1124f1c80c048865bd3e" kind="variable"><name>$client</name></member>
+    <member refid="interface_caretaker_8php_1a55793c72c535d153ffd3f0e43377898b" kind="variable"><name>$firstname</name></member>
+    <member refid="interface_caretaker_8php_1a1d2ddb6354180329b59e8b90ed94dc7f" kind="variable"><name>$lastname</name></member>
+    <member refid="interface_caretaker_8php_1a0eb82aa5f81cf845de4b36cd653c42cf" kind="variable"><name>$username</name></member>
+    <member refid="interface_caretaker_8php_1a1d5a040d6cd65b40daa47911e18adbb0" kind="variable"><name>$birthdate</name></member>
+    <member refid="interface_caretaker_8php_1a0f1d7cfb9dc6f494b9014885205fc47e" kind="variable"><name>$gender</name></member>
+    <member refid="interface_caretaker_8php_1acfc00bd4a41804552c630950bf61a51f" kind="variable"><name>$err</name></member>
+    <member refid="interface_caretaker_8php_1a92a56c9f87957df1ea5de5f7dc4972c1" kind="variable"><name>$result</name></member>
+    <member refid="interface_caretaker_8php_1a1ca8352998003e269d19445a51cb3ce5" kind="variable"><name>else</name></member>
+  </compound>
+  <compound refid="interface_insert_info_location_8php" kind="file"><name>interfaceInsertInfoLocation.php</name>
+    <member refid="interface_insert_info_location_8php_1a804e0322c9a13a0c0636a292152e5114" kind="variable"><name>$client</name></member>
+    <member refid="interface_insert_info_location_8php_1a3fa671db28976c46bc40592b61ce17f7" kind="variable"><name>$pacient</name></member>
+    <member refid="interface_insert_info_location_8php_1a00ae4fcafb1145f5e968bdf920f83e2e" kind="variable"><name>$token</name></member>
+    <member refid="interface_insert_info_location_8php_1ae472409ec3f825fbb70ac3dd7a217e10" kind="variable"><name>$activityName</name></member>
+    <member refid="interface_insert_info_location_8php_1acf215f34a917d014776ce684a9ee8909" kind="variable"><name>$url</name></member>
+    <member refid="interface_insert_info_location_8php_1acfc00bd4a41804552c630950bf61a51f" kind="variable"><name>$err</name></member>
+    <member refid="interface_insert_info_location_8php_1a92a56c9f87957df1ea5de5f7dc4972c1" kind="variable"><name>$result</name></member>
+    <member refid="interface_insert_info_location_8php_1a1ca8352998003e269d19445a51cb3ce5" kind="variable"><name>else</name></member>
+  </compound>
+  <compound refid="interface_pacient_8php" kind="file"><name>interfacePacient.php</name>
+    <member refid="interface_pacient_8php_1a3a056d69c5ee1124f1c80c048865bd3e" kind="variable"><name>$client</name></member>
+    <member refid="interface_pacient_8php_1a55793c72c535d153ffd3f0e43377898b" kind="variable"><name>$firstname</name></member>
+    <member refid="interface_pacient_8php_1a1d2ddb6354180329b59e8b90ed94dc7f" kind="variable"><name>$lastname</name></member>
+    <member refid="interface_pacient_8php_1a0eb82aa5f81cf845de4b36cd653c42cf" kind="variable"><name>$username</name></member>
+    <member refid="interface_pacient_8php_1a1d5a040d6cd65b40daa47911e18adbb0" kind="variable"><name>$birthdate</name></member>
+    <member refid="interface_pacient_8php_1a0f1d7cfb9dc6f494b9014885205fc47e" kind="variable"><name>$gender</name></member>
+    <member refid="interface_pacient_8php_1acfc00bd4a41804552c630950bf61a51f" kind="variable"><name>$err</name></member>
+    <member refid="interface_pacient_8php_1a92a56c9f87957df1ea5de5f7dc4972c1" kind="variable"><name>$result</name></member>
+    <member refid="interface_pacient_8php_1a1ca8352998003e269d19445a51cb3ce5" kind="variable"><name>else</name></member>
+  </compound>
+  <compound refid="functions_8php" kind="file"><name>functions.php</name>
+    <member refid="functions_8php_1a3a3acb6698b0844c523e5cd124d1b9c0" kind="function"><name>dbConnection</name></member>
+    <member refid="functions_8php_1a194478d9ff0974f78087c41353c4b92b" kind="function"><name>queryMysqli</name></member>
+    <member refid="functions_8php_1a24a9bf83a1002d46ece83a93d14bd921" kind="function"><name>get</name></member>
+  </compound>
+  <compound refid="teste_8php" kind="file"><name>teste.php</name>
+    <member refid="teste_8php_1acf215f34a917d014776ce684a9ee8909" kind="variable"><name>$url</name></member>
+    <member refid="teste_8php_1a57b284fe00866494b33afa80ba729bed" kind="variable"><name>$content</name></member>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>C:/Users/Alessandro/Desktop/ES-Project/WS2/lib</name>
+  </compound>
+</doxygenindex>

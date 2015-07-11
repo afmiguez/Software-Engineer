@@ -1,0 +1,180 @@
+.TH "WS2_Webservice" 3 "Sun Jan 11 2015" "ws2" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WS2_Webservice \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBregisterPacient\fP ($firstname, $lastname, $username, $birthdate, $gender)"
+.br
+.ti -1c
+.RI "\fBregisterCaretaker\fP ($firstname, $lastname, $username, $birthdate, $gender)"
+.br
+.ti -1c
+.RI "\fBinsertInfoLocation\fP ($pacient, $token, $activityName, $url)"
+.br
+.ti -1c
+.RI "\fBauthorizeCaretaker\fP ($pacient, $token, $activityName, $caretaker)"
+.br
+.ti -1c
+.RI "\fBregisterMethod\fP ($nameMethod)"
+.br
+.ti -1c
+.RI "\fBprocessRequest\fP ()"
+.br
+.in -1c
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "\fB$server\fP = NULL"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "authorizeCaretaker ($pacient, $token, $activityName, $caretaker)"
+authorize a caretaker to have access to pacient info after validate the pacient, check if the caretaker is in the webservice database and if there's an activity registered\&. return either a message of error or success
+.PP
+public 
+.PP
+\fBAuthor:\fP
+.RS 4
+firstname and lastname of author, author@example.org 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIString\fP pacient 
+.br
+\fIString\fP token 
+.br
+\fIString\fP activityName 
+.br
+\fIString\fP caretaker 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+String 
+.RE
+.PP
+
+.SS "insertInfoLocation ($pacient, $token, $activityName, $url)"
+insert an pacient activity location after validate its token\&. return a message of error or success
+.PP
+public 
+.PP
+\fBAuthor:\fP
+.RS 4
+firstname and lastname of author, author@example.org 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIString\fP pacient 
+.br
+\fIString\fP token 
+.br
+\fIString\fP activityName 
+.br
+\fIString\fP url 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+String 
+.RE
+.PP
+
+.SS "registerCaretaker ($firstname, $lastname, $username, $birthdate, $gender)"
+try to register a caretaker, and return either the token or an error message
+.PP
+public 
+.PP
+\fBAuthor:\fP
+.RS 4
+firstname and lastname of author, author@example.org 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIString\fP firstname 
+.br
+\fIString\fP lastname 
+.br
+\fIString\fP username 
+.br
+\fIString\fP birthdate 
+.br
+\fIchar\fP gender 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+String 
+.RE
+.PP
+
+.SS "registerMethod ($nameMethod)"
+Short description of method accessInfoLocation
+.PP
+public 
+.PP
+\fBAuthor:\fP
+.RS 4
+firstname and lastname of author, author@example.org 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIString\fP caretaker 
+.br
+\fIString\fP pacient 
+.br
+\fIString\fP activityName 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+WS1_Array 
+.RE
+.PP
+
+.SS "registerPacient ($firstname, $lastname, $username, $birthdate, $gender)"
+try to register a pacient, and return either the token or an error message
+.PP
+public 
+.PP
+\fBAuthor:\fP
+.RS 4
+firstname and lastname of author, author@example.org 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIString\fP firstname 
+.br
+\fIString\fP lastname 
+.br
+\fIString\fP username 
+.br
+\fIString\fP birthdate 
+.br
+\fIchar\fP gender 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+String 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for ws2 from the source code\&.

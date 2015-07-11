@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="teste_8php" kind="file">
+    <compoundname>teste.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="teste_8php_1acf215f34a917d014776ce684a9ee8909" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$url</definition>
+        <argsstring></argsstring>
+        <name>$url</name>
+        <initializer>=&apos;http://192.168.163.128/ES-Project/WS1/query.php?username=xyw&amp;name=corre&amp;token=123&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/teste.php" line="3" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/teste.php" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="teste_8php_1a57b284fe00866494b33afa80ba729bed" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$content</definition>
+        <argsstring></argsstring>
+        <name>$content</name>
+        <initializer>=file_get_contents($url)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/teste.php" line="4" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS2/teste.php" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">$url=</highlight><highlight class="stringliteral">&apos;http://192.168.163.128/ES-Project/WS1/query.php?username=xyw&amp;name=corre&amp;token=123&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">$content=file_get_contents($url);</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">print_r($content);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Alessandro/Desktop/ES-Project/WS2/teste.php"/>
+  </compounddef>
+</doxygen>

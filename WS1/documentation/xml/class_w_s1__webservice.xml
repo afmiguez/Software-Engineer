@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_w_s1__webservice" kind="class" prot="public">
+    <compoundname>WS1_webservice</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_w_s1__webservice_1ad135cc8a47e55f0829949cf62214170f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$server</definition>
+        <argsstring></argsstring>
+        <name>$server</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.webservice.php" line="60" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.webservice.php" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_w_s1__webservice_1a095c5d389db211932136b53f25f39685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.webservice.php" line="62" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.webservice.php" bodystart="62" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s1__webservice_1a1b62ed1851f70edfd18f49d06e68dc50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>createUser</definition>
+        <argsstring>($firstname, $lastname, $username, $birthdate, $gender)</argsstring>
+        <name>createUser</name>
+        <param>
+          <declname>$firstname</declname>
+        </param>
+        <param>
+          <declname>$lastname</declname>
+        </param>
+        <param>
+          <declname>$username</declname>
+        </param>
+        <param>
+          <declname>$birthdate</declname>
+        </param>
+        <param>
+          <declname>$gender</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>create an <ref refid="class_w_s1__user" kindref="compound">WS1_user</ref> object and make register itself. will return either a token or a message of error</para><para>public <simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink> </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>firstname </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>lastname </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>username </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>birthdate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>char</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>gender </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>WS1_xml </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.webservice.php" line="80" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.webservice.php" bodystart="80" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s1__webservice_1a6546d97dda46091660111f56f0740b87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>createUserActivity</definition>
+        <argsstring>($username, $start, $end, $activityName, $token)</argsstring>
+        <name>createUserActivity</name>
+        <param>
+          <declname>$username</declname>
+        </param>
+        <param>
+          <declname>$start</declname>
+        </param>
+        <param>
+          <declname>$end</declname>
+        </param>
+        <param>
+          <declname>$activityName</declname>
+        </param>
+        <param>
+          <declname>$token</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>create an <ref refid="class_w_s1__activity" kindref="compound">WS1_activity</ref> after check if the user exists, and the given token is valid</para><para>public <simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink> </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>username </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>end </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>activityName </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>token </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.webservice.php" line="98" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.webservice.php" bodystart="98" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s1__webservice_1ac6205c0eeff28a018e749336e55b084d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getUserQuery</definition>
+        <argsstring>($username, $activityName, $token)</argsstring>
+        <name>getUserQuery</name>
+        <param>
+          <declname>$username</declname>
+        </param>
+        <param>
+          <declname>$activityName</declname>
+        </param>
+        <param>
+          <declname>$token</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get an array of <ref refid="class_w_s1__activity" kindref="compound">WS1_activity</ref> objects</para><para>public <simplesect kind="author"><para>firstname and lastname of author, <ulink url="mailto:author@example.org">author@example.org</ulink> </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>username </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>activityName </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>String</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>token </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Array </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.webservice.php" line="127" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.webservice.php" bodystart="127" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s1__webservice_1ab93521bcae8c90f705635a5788ce1def" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>registerMethod</definition>
+        <argsstring>($nameMethod)</argsstring>
+        <name>registerMethod</name>
+        <param>
+          <declname>$nameMethod</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.webservice.php" line="148" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.webservice.php" bodystart="148" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_w_s1__webservice_1a3c934047380a0debb627d77d51bb85c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>processRequest</definition>
+        <argsstring>()</argsstring>
+        <name>processRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.webservice.php" line="153" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.webservice.php" bodystart="153" bodyend="155"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.webservice.php" line="58" column="1" bodyfile="C:/Users/Alessandro/Desktop/ES-Project/WS1/class.webservice.php" bodystart="58" bodyend="156"/>
+    <listofallmembers>
+      <member refid="class_w_s1__webservice_1ad135cc8a47e55f0829949cf62214170f" prot="public" virt="non-virtual"><scope>WS1_webservice</scope><name>$server</name></member>
+      <member refid="class_w_s1__webservice_1a095c5d389db211932136b53f25f39685" prot="public" virt="non-virtual"><scope>WS1_webservice</scope><name>__construct</name></member>
+      <member refid="class_w_s1__webservice_1a1b62ed1851f70edfd18f49d06e68dc50" prot="public" virt="non-virtual"><scope>WS1_webservice</scope><name>createUser</name></member>
+      <member refid="class_w_s1__webservice_1a6546d97dda46091660111f56f0740b87" prot="public" virt="non-virtual"><scope>WS1_webservice</scope><name>createUserActivity</name></member>
+      <member refid="class_w_s1__webservice_1ac6205c0eeff28a018e749336e55b084d" prot="public" virt="non-virtual"><scope>WS1_webservice</scope><name>getUserQuery</name></member>
+      <member refid="class_w_s1__webservice_1a3c934047380a0debb627d77d51bb85c8" prot="public" virt="non-virtual"><scope>WS1_webservice</scope><name>processRequest</name></member>
+      <member refid="class_w_s1__webservice_1ab93521bcae8c90f705635a5788ce1def" prot="public" virt="non-virtual"><scope>WS1_webservice</scope><name>registerMethod</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
